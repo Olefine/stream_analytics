@@ -1,0 +1,436 @@
+format version: 5
+output mode:
+1 items
+0 -> single
+output directories:
+1 items
+output dir -> /Users/egorgorodov/dev/scala/stream_analytics/target/scala-2.11/classes
+compile options:
+0 items
+javac options:
+0 items
+compiler version:
+1 items
+0 -> 2.11.8
+compile order:
+1 items
+0 -> Mixed
+name hashing:
+1 items
+0 -> true
+products:
+24 items
+/Users/egorgorodov/dev/scala/stream_analytics/src/main/scala/ru/egorodov/ServerSocketReceiver.scala -> /Users/egorgorodov/dev/scala/stream_analytics/target/scala-2.11/classes/ru/egorodov/ServerSocketReceiver$$anon$1.class
+/Users/egorgorodov/dev/scala/stream_analytics/src/main/scala/ru/egorodov/ServerSocketReceiver.scala -> /Users/egorgorodov/dev/scala/stream_analytics/target/scala-2.11/classes/ru/egorodov/ServerSocketReceiver.class
+/Users/egorgorodov/dev/scala/stream_analytics/src/main/scala/ru/egorodov/master/CliOptionParser.scala -> /Users/egorgorodov/dev/scala/stream_analytics/target/scala-2.11/classes/ru/egorodov/master/CliOptionParser$$anonfun$isMonitoringEnabled$1.class
+/Users/egorgorodov/dev/scala/stream_analytics/src/main/scala/ru/egorodov/master/CliOptionParser.scala -> /Users/egorgorodov/dev/scala/stream_analytics/target/scala-2.11/classes/ru/egorodov/master/CliOptionParser$.class
+/Users/egorgorodov/dev/scala/stream_analytics/src/main/scala/ru/egorodov/master/CliOptionParser.scala -> /Users/egorgorodov/dev/scala/stream_analytics/target/scala-2.11/classes/ru/egorodov/master/CliOptionParser.class
+/Users/egorgorodov/dev/scala/stream_analytics/src/main/scala/ru/egorodov/master/DataSchema.scala -> /Users/egorgorodov/dev/scala/stream_analytics/target/scala-2.11/classes/ru/egorodov/master/DataSchema$.class
+/Users/egorgorodov/dev/scala/stream_analytics/src/main/scala/ru/egorodov/master/DataSchema.scala -> /Users/egorgorodov/dev/scala/stream_analytics/target/scala-2.11/classes/ru/egorodov/master/DataSchema$LatLong.class
+/Users/egorgorodov/dev/scala/stream_analytics/src/main/scala/ru/egorodov/master/DataSchema.scala -> /Users/egorgorodov/dev/scala/stream_analytics/target/scala-2.11/classes/ru/egorodov/master/DataSchema.class
+/Users/egorgorodov/dev/scala/stream_analytics/src/main/scala/ru/egorodov/master/TsvProcessor.scala -> /Users/egorgorodov/dev/scala/stream_analytics/target/scala-2.11/classes/ru/egorodov/master/TsvProcessor$$anonfun$1.class
+/Users/egorgorodov/dev/scala/stream_analytics/src/main/scala/ru/egorodov/master/TsvProcessor.scala -> /Users/egorgorodov/dev/scala/stream_analytics/target/scala-2.11/classes/ru/egorodov/master/TsvProcessor$$anonfun$2.class
+/Users/egorgorodov/dev/scala/stream_analytics/src/main/scala/ru/egorodov/master/TsvProcessor.scala -> /Users/egorgorodov/dev/scala/stream_analytics/target/scala-2.11/classes/ru/egorodov/master/TsvProcessor$$anonfun$3.class
+/Users/egorgorodov/dev/scala/stream_analytics/src/main/scala/ru/egorodov/master/TsvProcessor.scala -> /Users/egorgorodov/dev/scala/stream_analytics/target/scala-2.11/classes/ru/egorodov/master/TsvProcessor$$anonfun$4.class
+/Users/egorgorodov/dev/scala/stream_analytics/src/main/scala/ru/egorodov/master/TsvProcessor.scala -> /Users/egorgorodov/dev/scala/stream_analytics/target/scala-2.11/classes/ru/egorodov/master/TsvProcessor$$anonfun$main$1$$anonfun$apply$2$$anonfun$apply$1.class
+/Users/egorgorodov/dev/scala/stream_analytics/src/main/scala/ru/egorodov/master/TsvProcessor.scala -> /Users/egorgorodov/dev/scala/stream_analytics/target/scala-2.11/classes/ru/egorodov/master/TsvProcessor$$anonfun$main$1$$anonfun$apply$2.class
+/Users/egorgorodov/dev/scala/stream_analytics/src/main/scala/ru/egorodov/master/TsvProcessor.scala -> /Users/egorgorodov/dev/scala/stream_analytics/target/scala-2.11/classes/ru/egorodov/master/TsvProcessor$$anonfun$main$1.class
+/Users/egorgorodov/dev/scala/stream_analytics/src/main/scala/ru/egorodov/master/TsvProcessor.scala -> /Users/egorgorodov/dev/scala/stream_analytics/target/scala-2.11/classes/ru/egorodov/master/TsvProcessor$.class
+/Users/egorgorodov/dev/scala/stream_analytics/src/main/scala/ru/egorodov/master/TsvProcessor.scala -> /Users/egorgorodov/dev/scala/stream_analytics/target/scala-2.11/classes/ru/egorodov/master/TsvProcessor.class
+/Users/egorgorodov/dev/scala/stream_analytics/src/main/scala/ru/egorodov/master/transformations/SumTransformation.scala -> /Users/egorgorodov/dev/scala/stream_analytics/target/scala-2.11/classes/ru/egorodov/master/transformations/SumTransformation$.class
+/Users/egorgorodov/dev/scala/stream_analytics/src/main/scala/ru/egorodov/master/transformations/SumTransformation.scala -> /Users/egorgorodov/dev/scala/stream_analytics/target/scala-2.11/classes/ru/egorodov/master/transformations/SumTransformation.class
+/Users/egorgorodov/dev/scala/stream_analytics/src/main/scala/ru/egorodov/monitoring/Monitor.scala -> /Users/egorgorodov/dev/scala/stream_analytics/target/scala-2.11/classes/ru/egorodov/monitoring/Monitor$$anonfun$1.class
+/Users/egorgorodov/dev/scala/stream_analytics/src/main/scala/ru/egorodov/monitoring/Monitor.scala -> /Users/egorgorodov/dev/scala/stream_analytics/target/scala-2.11/classes/ru/egorodov/monitoring/Monitor$$anonfun$2.class
+/Users/egorgorodov/dev/scala/stream_analytics/src/main/scala/ru/egorodov/monitoring/Monitor.scala -> /Users/egorgorodov/dev/scala/stream_analytics/target/scala-2.11/classes/ru/egorodov/monitoring/Monitor$.class
+/Users/egorgorodov/dev/scala/stream_analytics/src/main/scala/ru/egorodov/monitoring/Monitor.scala -> /Users/egorgorodov/dev/scala/stream_analytics/target/scala-2.11/classes/ru/egorodov/monitoring/Monitor$delayedInit$body.class
+/Users/egorgorodov/dev/scala/stream_analytics/src/main/scala/ru/egorodov/monitoring/Monitor.scala -> /Users/egorgorodov/dev/scala/stream_analytics/target/scala-2.11/classes/ru/egorodov/monitoring/Monitor.class
+binary dependencies:
+18 items
+/Users/egorgorodov/dev/scala/stream_analytics/src/main/scala/ru/egorodov/ServerSocketReceiver.scala -> /Library/Java/JavaVirtualMachines/jdk1.8.0_101.jdk/Contents/Home/jre/lib/rt.jar
+/Users/egorgorodov/dev/scala/stream_analytics/src/main/scala/ru/egorodov/ServerSocketReceiver.scala -> /Users/egorgorodov/.ivy2/cache/org.apache.spark/spark-core_2.11/jars/spark-core_2.11-2.1.0.jar
+/Users/egorgorodov/dev/scala/stream_analytics/src/main/scala/ru/egorodov/ServerSocketReceiver.scala -> /Users/egorgorodov/.ivy2/cache/org.apache.spark/spark-streaming_2.11/jars/spark-streaming_2.11-2.1.0.jar
+/Users/egorgorodov/dev/scala/stream_analytics/src/main/scala/ru/egorodov/ServerSocketReceiver.scala -> /Users/egorgorodov/.ivy2/cache/org.scala-lang/scala-library/jars/scala-library-2.11.8.jar
+/Users/egorgorodov/dev/scala/stream_analytics/src/main/scala/ru/egorodov/master/CliOptionParser.scala -> /Library/Java/JavaVirtualMachines/jdk1.8.0_101.jdk/Contents/Home/jre/lib/rt.jar
+/Users/egorgorodov/dev/scala/stream_analytics/src/main/scala/ru/egorodov/master/CliOptionParser.scala -> /Users/egorgorodov/.ivy2/cache/org.scala-lang/scala-library/jars/scala-library-2.11.8.jar
+/Users/egorgorodov/dev/scala/stream_analytics/src/main/scala/ru/egorodov/master/DataSchema.scala -> /Library/Java/JavaVirtualMachines/jdk1.8.0_101.jdk/Contents/Home/jre/lib/rt.jar
+/Users/egorgorodov/dev/scala/stream_analytics/src/main/scala/ru/egorodov/master/DataSchema.scala -> /Users/egorgorodov/.ivy2/cache/org.scala-lang/scala-library/jars/scala-library-2.11.8.jar
+/Users/egorgorodov/dev/scala/stream_analytics/src/main/scala/ru/egorodov/master/TsvProcessor.scala -> /Library/Java/JavaVirtualMachines/jdk1.8.0_101.jdk/Contents/Home/jre/lib/rt.jar
+/Users/egorgorodov/dev/scala/stream_analytics/src/main/scala/ru/egorodov/master/TsvProcessor.scala -> /Users/egorgorodov/.ivy2/cache/org.apache.spark/spark-core_2.11/jars/spark-core_2.11-2.1.0.jar
+/Users/egorgorodov/dev/scala/stream_analytics/src/main/scala/ru/egorodov/master/TsvProcessor.scala -> /Users/egorgorodov/.ivy2/cache/org.apache.spark/spark-streaming_2.11/jars/spark-streaming_2.11-2.1.0.jar
+/Users/egorgorodov/dev/scala/stream_analytics/src/main/scala/ru/egorodov/master/TsvProcessor.scala -> /Users/egorgorodov/.ivy2/cache/org.scala-lang/scala-library/jars/scala-library-2.11.8.jar
+/Users/egorgorodov/dev/scala/stream_analytics/src/main/scala/ru/egorodov/master/transformations/SumTransformation.scala -> /Library/Java/JavaVirtualMachines/jdk1.8.0_101.jdk/Contents/Home/jre/lib/rt.jar
+/Users/egorgorodov/dev/scala/stream_analytics/src/main/scala/ru/egorodov/master/transformations/SumTransformation.scala -> /Users/egorgorodov/.ivy2/cache/org.scala-lang/scala-library/jars/scala-library-2.11.8.jar
+/Users/egorgorodov/dev/scala/stream_analytics/src/main/scala/ru/egorodov/monitoring/Monitor.scala -> /Library/Java/JavaVirtualMachines/jdk1.8.0_101.jdk/Contents/Home/jre/lib/rt.jar
+/Users/egorgorodov/dev/scala/stream_analytics/src/main/scala/ru/egorodov/monitoring/Monitor.scala -> /Users/egorgorodov/.ivy2/cache/org.apache.spark/spark-core_2.11/jars/spark-core_2.11-2.1.0.jar
+/Users/egorgorodov/dev/scala/stream_analytics/src/main/scala/ru/egorodov/monitoring/Monitor.scala -> /Users/egorgorodov/.ivy2/cache/org.apache.spark/spark-streaming_2.11/jars/spark-streaming_2.11-2.1.0.jar
+/Users/egorgorodov/dev/scala/stream_analytics/src/main/scala/ru/egorodov/monitoring/Monitor.scala -> /Users/egorgorodov/.ivy2/cache/org.scala-lang/scala-library/jars/scala-library-2.11.8.jar
+direct source dependencies:
+0 items
+direct external dependencies:
+0 items
+public inherited source dependencies:
+0 items
+public inherited external dependencies:
+0 items
+member reference internal dependencies:
+6 items
+/Users/egorgorodov/dev/scala/stream_analytics/src/main/scala/ru/egorodov/master/TsvProcessor.scala -> /Users/egorgorodov/dev/scala/stream_analytics/src/main/scala/ru/egorodov/ServerSocketReceiver.scala
+/Users/egorgorodov/dev/scala/stream_analytics/src/main/scala/ru/egorodov/master/TsvProcessor.scala -> /Users/egorgorodov/dev/scala/stream_analytics/src/main/scala/ru/egorodov/master/CliOptionParser.scala
+/Users/egorgorodov/dev/scala/stream_analytics/src/main/scala/ru/egorodov/master/TsvProcessor.scala -> /Users/egorgorodov/dev/scala/stream_analytics/src/main/scala/ru/egorodov/master/DataSchema.scala
+/Users/egorgorodov/dev/scala/stream_analytics/src/main/scala/ru/egorodov/master/TsvProcessor.scala -> /Users/egorgorodov/dev/scala/stream_analytics/src/main/scala/ru/egorodov/master/transformations/SumTransformation.scala
+/Users/egorgorodov/dev/scala/stream_analytics/src/main/scala/ru/egorodov/master/transformations/SumTransformation.scala -> /Users/egorgorodov/dev/scala/stream_analytics/src/main/scala/ru/egorodov/master/DataSchema.scala
+/Users/egorgorodov/dev/scala/stream_analytics/src/main/scala/ru/egorodov/monitoring/Monitor.scala -> /Users/egorgorodov/dev/scala/stream_analytics/src/main/scala/ru/egorodov/ServerSocketReceiver.scala
+member reference external dependencies:
+0 items
+inheritance internal dependencies:
+0 items
+inheritance external dependencies:
+0 items
+class names:
+24 items
+/Users/egorgorodov/dev/scala/stream_analytics/src/main/scala/ru/egorodov/ServerSocketReceiver.scala -> ru.egorodov.ServerSocketReceiver
+/Users/egorgorodov/dev/scala/stream_analytics/src/main/scala/ru/egorodov/ServerSocketReceiver.scala -> ru.egorodov.ServerSocketReceiver$$anon$1
+/Users/egorgorodov/dev/scala/stream_analytics/src/main/scala/ru/egorodov/master/CliOptionParser.scala -> ru.egorodov.master.CliOptionParser
+/Users/egorgorodov/dev/scala/stream_analytics/src/main/scala/ru/egorodov/master/CliOptionParser.scala -> ru.egorodov.master.CliOptionParser$
+/Users/egorgorodov/dev/scala/stream_analytics/src/main/scala/ru/egorodov/master/CliOptionParser.scala -> ru.egorodov.master.CliOptionParser$$anonfun$isMonitoringEnabled$1
+/Users/egorgorodov/dev/scala/stream_analytics/src/main/scala/ru/egorodov/master/DataSchema.scala -> ru.egorodov.master.DataSchema
+/Users/egorgorodov/dev/scala/stream_analytics/src/main/scala/ru/egorodov/master/DataSchema.scala -> ru.egorodov.master.DataSchema$
+/Users/egorgorodov/dev/scala/stream_analytics/src/main/scala/ru/egorodov/master/DataSchema.scala -> ru.egorodov.master.DataSchema$LatLong
+/Users/egorgorodov/dev/scala/stream_analytics/src/main/scala/ru/egorodov/master/TsvProcessor.scala -> ru.egorodov.master.TsvProcessor
+/Users/egorgorodov/dev/scala/stream_analytics/src/main/scala/ru/egorodov/master/TsvProcessor.scala -> ru.egorodov.master.TsvProcessor$
+/Users/egorgorodov/dev/scala/stream_analytics/src/main/scala/ru/egorodov/master/TsvProcessor.scala -> ru.egorodov.master.TsvProcessor$$anonfun$1
+/Users/egorgorodov/dev/scala/stream_analytics/src/main/scala/ru/egorodov/master/TsvProcessor.scala -> ru.egorodov.master.TsvProcessor$$anonfun$2
+/Users/egorgorodov/dev/scala/stream_analytics/src/main/scala/ru/egorodov/master/TsvProcessor.scala -> ru.egorodov.master.TsvProcessor$$anonfun$3
+/Users/egorgorodov/dev/scala/stream_analytics/src/main/scala/ru/egorodov/master/TsvProcessor.scala -> ru.egorodov.master.TsvProcessor$$anonfun$4
+/Users/egorgorodov/dev/scala/stream_analytics/src/main/scala/ru/egorodov/master/TsvProcessor.scala -> ru.egorodov.master.TsvProcessor$$anonfun$main$1
+/Users/egorgorodov/dev/scala/stream_analytics/src/main/scala/ru/egorodov/master/TsvProcessor.scala -> ru.egorodov.master.TsvProcessor$$anonfun$main$1$$anonfun$apply$2
+/Users/egorgorodov/dev/scala/stream_analytics/src/main/scala/ru/egorodov/master/TsvProcessor.scala -> ru.egorodov.master.TsvProcessor$$anonfun$main$1$$anonfun$apply$2$$anonfun$apply$1
+/Users/egorgorodov/dev/scala/stream_analytics/src/main/scala/ru/egorodov/master/transformations/SumTransformation.scala -> ru.egorodov.master.transformations.SumTransformation
+/Users/egorgorodov/dev/scala/stream_analytics/src/main/scala/ru/egorodov/master/transformations/SumTransformation.scala -> ru.egorodov.master.transformations.SumTransformation$
+/Users/egorgorodov/dev/scala/stream_analytics/src/main/scala/ru/egorodov/monitoring/Monitor.scala -> ru.egorodov.monitoring.Monitor
+/Users/egorgorodov/dev/scala/stream_analytics/src/main/scala/ru/egorodov/monitoring/Monitor.scala -> ru.egorodov.monitoring.Monitor$
+/Users/egorgorodov/dev/scala/stream_analytics/src/main/scala/ru/egorodov/monitoring/Monitor.scala -> ru.egorodov.monitoring.Monitor$$anonfun$1
+/Users/egorgorodov/dev/scala/stream_analytics/src/main/scala/ru/egorodov/monitoring/Monitor.scala -> ru.egorodov.monitoring.Monitor$$anonfun$2
+/Users/egorgorodov/dev/scala/stream_analytics/src/main/scala/ru/egorodov/monitoring/Monitor.scala -> ru.egorodov.monitoring.Monitor$delayedInit$body
+used names:
+230 items
+/Users/egorgorodov/dev/scala/stream_analytics/src/main/scala/ru/egorodov/ServerSocketReceiver.scala -> !=
+/Users/egorgorodov/dev/scala/stream_analytics/src/main/scala/ru/egorodov/ServerSocketReceiver.scala -> $anon
+/Users/egorgorodov/dev/scala/stream_analytics/src/main/scala/ru/egorodov/ServerSocketReceiver.scala -> &&
+/Users/egorgorodov/dev/scala/stream_analytics/src/main/scala/ru/egorodov/ServerSocketReceiver.scala -> +
+/Users/egorgorodov/dev/scala/stream_analytics/src/main/scala/ru/egorodov/ServerSocketReceiver.scala -> <init>
+/Users/egorgorodov/dev/scala/stream_analytics/src/main/scala/ru/egorodov/ServerSocketReceiver.scala -> BufferedReader
+/Users/egorgorodov/dev/scala/stream_analytics/src/main/scala/ru/egorodov/ServerSocketReceiver.scala -> ConnectException
+/Users/egorgorodov/dev/scala/stream_analytics/src/main/scala/ru/egorodov/ServerSocketReceiver.scala -> InputStreamReader
+/Users/egorgorodov/dev/scala/stream_analytics/src/main/scala/ru/egorodov/ServerSocketReceiver.scala -> Int
+/Users/egorgorodov/dev/scala/stream_analytics/src/main/scala/ru/egorodov/ServerSocketReceiver.scala -> MEMORY_AND_DISK_2
+/Users/egorgorodov/dev/scala/stream_analytics/src/main/scala/ru/egorodov/ServerSocketReceiver.scala -> Predef
+/Users/egorgorodov/dev/scala/stream_analytics/src/main/scala/ru/egorodov/ServerSocketReceiver.scala -> Receiver
+/Users/egorgorodov/dev/scala/stream_analytics/src/main/scala/ru/egorodov/ServerSocketReceiver.scala -> ServerSocket
+/Users/egorgorodov/dev/scala/stream_analytics/src/main/scala/ru/egorodov/ServerSocketReceiver.scala -> ServerSocketReceiver
+/Users/egorgorodov/dev/scala/stream_analytics/src/main/scala/ru/egorodov/ServerSocketReceiver.scala -> StandardCharsets
+/Users/egorgorodov/dev/scala/stream_analytics/src/main/scala/ru/egorodov/ServerSocketReceiver.scala -> StorageLevel
+/Users/egorgorodov/dev/scala/stream_analytics/src/main/scala/ru/egorodov/ServerSocketReceiver.scala -> String
+/Users/egorgorodov/dev/scala/stream_analytics/src/main/scala/ru/egorodov/ServerSocketReceiver.scala -> Thread
+/Users/egorgorodov/dev/scala/stream_analytics/src/main/scala/ru/egorodov/ServerSocketReceiver.scala -> Throwable
+/Users/egorgorodov/dev/scala/stream_analytics/src/main/scala/ru/egorodov/ServerSocketReceiver.scala -> UTF_8
+/Users/egorgorodov/dev/scala/stream_analytics/src/main/scala/ru/egorodov/ServerSocketReceiver.scala -> Unit
+/Users/egorgorodov/dev/scala/stream_analytics/src/main/scala/ru/egorodov/ServerSocketReceiver.scala -> accept
+/Users/egorgorodov/dev/scala/stream_analytics/src/main/scala/ru/egorodov/ServerSocketReceiver.scala -> apache
+/Users/egorgorodov/dev/scala/stream_analytics/src/main/scala/ru/egorodov/ServerSocketReceiver.scala -> charset
+/Users/egorgorodov/dev/scala/stream_analytics/src/main/scala/ru/egorodov/ServerSocketReceiver.scala -> close
+/Users/egorgorodov/dev/scala/stream_analytics/src/main/scala/ru/egorodov/ServerSocketReceiver.scala -> e
+/Users/egorgorodov/dev/scala/stream_analytics/src/main/scala/ru/egorodov/ServerSocketReceiver.scala -> egorodov
+/Users/egorgorodov/dev/scala/stream_analytics/src/main/scala/ru/egorodov/ServerSocketReceiver.scala -> getInputStream
+/Users/egorgorodov/dev/scala/stream_analytics/src/main/scala/ru/egorodov/ServerSocketReceiver.scala -> io
+/Users/egorgorodov/dev/scala/stream_analytics/src/main/scala/ru/egorodov/ServerSocketReceiver.scala -> isStopped
+/Users/egorgorodov/dev/scala/stream_analytics/src/main/scala/ru/egorodov/ServerSocketReceiver.scala -> java
+/Users/egorgorodov/dev/scala/stream_analytics/src/main/scala/ru/egorodov/ServerSocketReceiver.scala -> lang
+/Users/egorgorodov/dev/scala/stream_analytics/src/main/scala/ru/egorodov/ServerSocketReceiver.scala -> net
+/Users/egorgorodov/dev/scala/stream_analytics/src/main/scala/ru/egorodov/ServerSocketReceiver.scala -> nio
+/Users/egorgorodov/dev/scala/stream_analytics/src/main/scala/ru/egorodov/ServerSocketReceiver.scala -> org
+/Users/egorgorodov/dev/scala/stream_analytics/src/main/scala/ru/egorodov/ServerSocketReceiver.scala -> package
+/Users/egorgorodov/dev/scala/stream_analytics/src/main/scala/ru/egorodov/ServerSocketReceiver.scala -> port
+/Users/egorgorodov/dev/scala/stream_analytics/src/main/scala/ru/egorodov/ServerSocketReceiver.scala -> readLine
+/Users/egorgorodov/dev/scala/stream_analytics/src/main/scala/ru/egorodov/ServerSocketReceiver.scala -> reader
+/Users/egorgorodov/dev/scala/stream_analytics/src/main/scala/ru/egorodov/ServerSocketReceiver.scala -> receive
+/Users/egorgorodov/dev/scala/stream_analytics/src/main/scala/ru/egorodov/ServerSocketReceiver.scala -> receiver
+/Users/egorgorodov/dev/scala/stream_analytics/src/main/scala/ru/egorodov/ServerSocketReceiver.scala -> restart
+/Users/egorgorodov/dev/scala/stream_analytics/src/main/scala/ru/egorodov/ServerSocketReceiver.scala -> ru
+/Users/egorgorodov/dev/scala/stream_analytics/src/main/scala/ru/egorodov/ServerSocketReceiver.scala -> s
+/Users/egorgorodov/dev/scala/stream_analytics/src/main/scala/ru/egorodov/ServerSocketReceiver.scala -> scala
+/Users/egorgorodov/dev/scala/stream_analytics/src/main/scala/ru/egorodov/ServerSocketReceiver.scala -> socket
+/Users/egorgorodov/dev/scala/stream_analytics/src/main/scala/ru/egorodov/ServerSocketReceiver.scala -> spark
+/Users/egorgorodov/dev/scala/stream_analytics/src/main/scala/ru/egorodov/ServerSocketReceiver.scala -> start
+/Users/egorgorodov/dev/scala/stream_analytics/src/main/scala/ru/egorodov/ServerSocketReceiver.scala -> storage
+/Users/egorgorodov/dev/scala/stream_analytics/src/main/scala/ru/egorodov/ServerSocketReceiver.scala -> store
+/Users/egorgorodov/dev/scala/stream_analytics/src/main/scala/ru/egorodov/ServerSocketReceiver.scala -> streaming
+/Users/egorgorodov/dev/scala/stream_analytics/src/main/scala/ru/egorodov/ServerSocketReceiver.scala -> t
+/Users/egorgorodov/dev/scala/stream_analytics/src/main/scala/ru/egorodov/ServerSocketReceiver.scala -> unary_!
+/Users/egorgorodov/dev/scala/stream_analytics/src/main/scala/ru/egorodov/ServerSocketReceiver.scala -> userInput
+/Users/egorgorodov/dev/scala/stream_analytics/src/main/scala/ru/egorodov/ServerSocketReceiver.scala -> while$1
+/Users/egorgorodov/dev/scala/stream_analytics/src/main/scala/ru/egorodov/master/CliOptionParser.scala -> <init>
+/Users/egorgorodov/dev/scala/stream_analytics/src/main/scala/ru/egorodov/master/CliOptionParser.scala -> AnyRef
+/Users/egorgorodov/dev/scala/stream_analytics/src/main/scala/ru/egorodov/master/CliOptionParser.scala -> Array
+/Users/egorgorodov/dev/scala/stream_analytics/src/main/scala/ru/egorodov/master/CliOptionParser.scala -> Boolean
+/Users/egorgorodov/dev/scala/stream_analytics/src/main/scala/ru/egorodov/master/CliOptionParser.scala -> CliOptionParser
+/Users/egorgorodov/dev/scala/stream_analytics/src/main/scala/ru/egorodov/master/CliOptionParser.scala -> Predef
+/Users/egorgorodov/dev/scala/stream_analytics/src/main/scala/ru/egorodov/master/CliOptionParser.scala -> String
+/Users/egorgorodov/dev/scala/stream_analytics/src/main/scala/ru/egorodov/master/CliOptionParser.scala -> args
+/Users/egorgorodov/dev/scala/stream_analytics/src/main/scala/ru/egorodov/master/CliOptionParser.scala -> egorodov
+/Users/egorgorodov/dev/scala/stream_analytics/src/main/scala/ru/egorodov/master/CliOptionParser.scala -> exists
+/Users/egorgorodov/dev/scala/stream_analytics/src/main/scala/ru/egorodov/master/CliOptionParser.scala -> master
+/Users/egorgorodov/dev/scala/stream_analytics/src/main/scala/ru/egorodov/master/CliOptionParser.scala -> refArrayOps
+/Users/egorgorodov/dev/scala/stream_analytics/src/main/scala/ru/egorodov/master/CliOptionParser.scala -> ru
+/Users/egorgorodov/dev/scala/stream_analytics/src/main/scala/ru/egorodov/master/CliOptionParser.scala -> scala
+/Users/egorgorodov/dev/scala/stream_analytics/src/main/scala/ru/egorodov/master/CliOptionParser.scala -> startsWith
+/Users/egorgorodov/dev/scala/stream_analytics/src/main/scala/ru/egorodov/master/DataSchema.scala -> <init>
+/Users/egorgorodov/dev/scala/stream_analytics/src/main/scala/ru/egorodov/master/DataSchema.scala -> DataSchema
+/Users/egorgorodov/dev/scala/stream_analytics/src/main/scala/ru/egorodov/master/DataSchema.scala -> Int
+/Users/egorgorodov/dev/scala/stream_analytics/src/main/scala/ru/egorodov/master/DataSchema.scala -> LatLong
+/Users/egorgorodov/dev/scala/stream_analytics/src/main/scala/ru/egorodov/master/DataSchema.scala -> Product
+/Users/egorgorodov/dev/scala/stream_analytics/src/main/scala/ru/egorodov/master/DataSchema.scala -> ScalaRunTime
+/Users/egorgorodov/dev/scala/stream_analytics/src/main/scala/ru/egorodov/master/DataSchema.scala -> Serializable
+/Users/egorgorodov/dev/scala/stream_analytics/src/main/scala/ru/egorodov/master/DataSchema.scala -> Tuple2
+/Users/egorgorodov/dev/scala/stream_analytics/src/main/scala/ru/egorodov/master/DataSchema.scala -> _1
+/Users/egorgorodov/dev/scala/stream_analytics/src/main/scala/ru/egorodov/master/DataSchema.scala -> _2
+/Users/egorgorodov/dev/scala/stream_analytics/src/main/scala/ru/egorodov/master/DataSchema.scala -> asInstanceOf
+/Users/egorgorodov/dev/scala/stream_analytics/src/main/scala/ru/egorodov/master/DataSchema.scala -> egorodov
+/Users/egorgorodov/dev/scala/stream_analytics/src/main/scala/ru/egorodov/master/DataSchema.scala -> lat
+/Users/egorgorodov/dev/scala/stream_analytics/src/main/scala/ru/egorodov/master/DataSchema.scala -> long
+/Users/egorgorodov/dev/scala/stream_analytics/src/main/scala/ru/egorodov/master/DataSchema.scala -> master
+/Users/egorgorodov/dev/scala/stream_analytics/src/main/scala/ru/egorodov/master/DataSchema.scala -> ru
+/Users/egorgorodov/dev/scala/stream_analytics/src/main/scala/ru/egorodov/master/DataSchema.scala -> runtime
+/Users/egorgorodov/dev/scala/stream_analytics/src/main/scala/ru/egorodov/master/DataSchema.scala -> scala
+/Users/egorgorodov/dev/scala/stream_analytics/src/main/scala/ru/egorodov/master/DataSchema.scala -> toString
+/Users/egorgorodov/dev/scala/stream_analytics/src/main/scala/ru/egorodov/master/DataSchema.scala -> typedProductIterator
+/Users/egorgorodov/dev/scala/stream_analytics/src/main/scala/ru/egorodov/master/TsvProcessor.scala -> +
+/Users/egorgorodov/dev/scala/stream_analytics/src/main/scala/ru/egorodov/master/TsvProcessor.scala -> <init>
+/Users/egorgorodov/dev/scala/stream_analytics/src/main/scala/ru/egorodov/master/TsvProcessor.scala -> AnyRef
+/Users/egorgorodov/dev/scala/stream_analytics/src/main/scala/ru/egorodov/master/TsvProcessor.scala -> Array
+/Users/egorgorodov/dev/scala/stream_analytics/src/main/scala/ru/egorodov/master/TsvProcessor.scala -> ClassTag
+/Users/egorgorodov/dev/scala/stream_analytics/src/main/scala/ru/egorodov/master/TsvProcessor.scala -> CliOptionParser
+/Users/egorgorodov/dev/scala/stream_analytics/src/main/scala/ru/egorodov/master/TsvProcessor.scala -> DataSchema
+/Users/egorgorodov/dev/scala/stream_analytics/src/main/scala/ru/egorodov/master/TsvProcessor.scala -> Int
+/Users/egorgorodov/dev/scala/stream_analytics/src/main/scala/ru/egorodov/master/TsvProcessor.scala -> Integer
+/Users/egorgorodov/dev/scala/stream_analytics/src/main/scala/ru/egorodov/master/TsvProcessor.scala -> LatLong
+/Users/egorgorodov/dev/scala/stream_analytics/src/main/scala/ru/egorodov/master/TsvProcessor.scala -> Predef
+/Users/egorgorodov/dev/scala/stream_analytics/src/main/scala/ru/egorodov/master/TsvProcessor.scala -> PrintWriter
+/Users/egorgorodov/dev/scala/stream_analytics/src/main/scala/ru/egorodov/master/TsvProcessor.scala -> ScalaRunTime
+/Users/egorgorodov/dev/scala/stream_analytics/src/main/scala/ru/egorodov/master/TsvProcessor.scala -> Seconds
+/Users/egorgorodov/dev/scala/stream_analytics/src/main/scala/ru/egorodov/master/TsvProcessor.scala -> ServerSocketReceiver
+/Users/egorgorodov/dev/scala/stream_analytics/src/main/scala/ru/egorodov/master/TsvProcessor.scala -> Socket
+/Users/egorgorodov/dev/scala/stream_analytics/src/main/scala/ru/egorodov/master/TsvProcessor.scala -> SparkConf
+/Users/egorgorodov/dev/scala/stream_analytics/src/main/scala/ru/egorodov/master/TsvProcessor.scala -> StreamingContext
+/Users/egorgorodov/dev/scala/stream_analytics/src/main/scala/ru/egorodov/master/TsvProcessor.scala -> String
+/Users/egorgorodov/dev/scala/stream_analytics/src/main/scala/ru/egorodov/master/TsvProcessor.scala -> SumTransformation
+/Users/egorgorodov/dev/scala/stream_analytics/src/main/scala/ru/egorodov/master/TsvProcessor.scala -> TsvProcessor
+/Users/egorgorodov/dev/scala/stream_analytics/src/main/scala/ru/egorodov/master/TsvProcessor.scala -> Unit
+/Users/egorgorodov/dev/scala/stream_analytics/src/main/scala/ru/egorodov/master/TsvProcessor.scala -> apache
+/Users/egorgorodov/dev/scala/stream_analytics/src/main/scala/ru/egorodov/master/TsvProcessor.scala -> apply
+/Users/egorgorodov/dev/scala/stream_analytics/src/main/scala/ru/egorodov/master/TsvProcessor.scala -> args
+/Users/egorgorodov/dev/scala/stream_analytics/src/main/scala/ru/egorodov/master/TsvProcessor.scala -> arrayClass
+/Users/egorgorodov/dev/scala/stream_analytics/src/main/scala/ru/egorodov/master/TsvProcessor.scala -> awaitTermination
+/Users/egorgorodov/dev/scala/stream_analytics/src/main/scala/ru/egorodov/master/TsvProcessor.scala -> close
+/Users/egorgorodov/dev/scala/stream_analytics/src/main/scala/ru/egorodov/master/TsvProcessor.scala -> conf
+/Users/egorgorodov/dev/scala/stream_analytics/src/main/scala/ru/egorodov/master/TsvProcessor.scala -> egorodov
+/Users/egorgorodov/dev/scala/stream_analytics/src/main/scala/ru/egorodov/master/TsvProcessor.scala -> flatMap
+/Users/egorgorodov/dev/scala/stream_analytics/src/main/scala/ru/egorodov/master/TsvProcessor.scala -> foreach
+/Users/egorgorodov/dev/scala/stream_analytics/src/main/scala/ru/egorodov/master/TsvProcessor.scala -> foreachPartition
+/Users/egorgorodov/dev/scala/stream_analytics/src/main/scala/ru/egorodov/master/TsvProcessor.scala -> foreachRDD
+/Users/egorgorodov/dev/scala/stream_analytics/src/main/scala/ru/egorodov/master/TsvProcessor.scala -> getOutputStream
+/Users/egorgorodov/dev/scala/stream_analytics/src/main/scala/ru/egorodov/master/TsvProcessor.scala -> inputData
+/Users/egorgorodov/dev/scala/stream_analytics/src/main/scala/ru/egorodov/master/TsvProcessor.scala -> io
+/Users/egorgorodov/dev/scala/stream_analytics/src/main/scala/ru/egorodov/master/TsvProcessor.scala -> isMonitoringEnabled
+/Users/egorgorodov/dev/scala/stream_analytics/src/main/scala/ru/egorodov/master/TsvProcessor.scala -> java
+/Users/egorgorodov/dev/scala/stream_analytics/src/main/scala/ru/egorodov/master/TsvProcessor.scala -> lang
+/Users/egorgorodov/dev/scala/stream_analytics/src/main/scala/ru/egorodov/master/TsvProcessor.scala -> map
+/Users/egorgorodov/dev/scala/stream_analytics/src/main/scala/ru/egorodov/master/TsvProcessor.scala -> master
+/Users/egorgorodov/dev/scala/stream_analytics/src/main/scala/ru/egorodov/master/TsvProcessor.scala -> materializeClassTag
+/Users/egorgorodov/dev/scala/stream_analytics/src/main/scala/ru/egorodov/master/TsvProcessor.scala -> net
+/Users/egorgorodov/dev/scala/stream_analytics/src/main/scala/ru/egorodov/master/TsvProcessor.scala -> numberPairs
+/Users/egorgorodov/dev/scala/stream_analytics/src/main/scala/ru/egorodov/master/TsvProcessor.scala -> org
+/Users/egorgorodov/dev/scala/stream_analytics/src/main/scala/ru/egorodov/master/TsvProcessor.scala -> out
+/Users/egorgorodov/dev/scala/stream_analytics/src/main/scala/ru/egorodov/master/TsvProcessor.scala -> package
+/Users/egorgorodov/dev/scala/stream_analytics/src/main/scala/ru/egorodov/master/TsvProcessor.scala -> pair
+/Users/egorgorodov/dev/scala/stream_analytics/src/main/scala/ru/egorodov/master/TsvProcessor.scala -> parseInt
+/Users/egorgorodov/dev/scala/stream_analytics/src/main/scala/ru/egorodov/master/TsvProcessor.scala -> partition
+/Users/egorgorodov/dev/scala/stream_analytics/src/main/scala/ru/egorodov/master/TsvProcessor.scala -> print
+/Users/egorgorodov/dev/scala/stream_analytics/src/main/scala/ru/egorodov/master/TsvProcessor.scala -> rdd
+/Users/egorgorodov/dev/scala/stream_analytics/src/main/scala/ru/egorodov/master/TsvProcessor.scala -> receiverStream
+/Users/egorgorodov/dev/scala/stream_analytics/src/main/scala/ru/egorodov/master/TsvProcessor.scala -> record
+/Users/egorgorodov/dev/scala/stream_analytics/src/main/scala/ru/egorodov/master/TsvProcessor.scala -> refArrayOps
+/Users/egorgorodov/dev/scala/stream_analytics/src/main/scala/ru/egorodov/master/TsvProcessor.scala -> ru
+/Users/egorgorodov/dev/scala/stream_analytics/src/main/scala/ru/egorodov/master/TsvProcessor.scala -> scala
+/Users/egorgorodov/dev/scala/stream_analytics/src/main/scala/ru/egorodov/master/TsvProcessor.scala -> setAppName
+/Users/egorgorodov/dev/scala/stream_analytics/src/main/scala/ru/egorodov/master/TsvProcessor.scala -> socket
+/Users/egorgorodov/dev/scala/stream_analytics/src/main/scala/ru/egorodov/master/TsvProcessor.scala -> spark
+/Users/egorgorodov/dev/scala/stream_analytics/src/main/scala/ru/egorodov/master/TsvProcessor.scala -> split
+/Users/egorgorodov/dev/scala/stream_analytics/src/main/scala/ru/egorodov/master/TsvProcessor.scala -> ssc
+/Users/egorgorodov/dev/scala/stream_analytics/src/main/scala/ru/egorodov/master/TsvProcessor.scala -> start
+/Users/egorgorodov/dev/scala/stream_analytics/src/main/scala/ru/egorodov/master/TsvProcessor.scala -> streamWithAppliedTransformation
+/Users/egorgorodov/dev/scala/stream_analytics/src/main/scala/ru/egorodov/master/TsvProcessor.scala -> streaming
+/Users/egorgorodov/dev/scala/stream_analytics/src/main/scala/ru/egorodov/master/TsvProcessor.scala -> toString
+/Users/egorgorodov/dev/scala/stream_analytics/src/main/scala/ru/egorodov/master/TsvProcessor.scala -> transformations
+/Users/egorgorodov/dev/scala/stream_analytics/src/main/scala/ru/egorodov/master/TsvProcessor.scala -> tsvRows
+/Users/egorgorodov/dev/scala/stream_analytics/src/main/scala/ru/egorodov/master/TsvProcessor.scala -> write
+/Users/egorgorodov/dev/scala/stream_analytics/src/main/scala/ru/egorodov/master/transformations/SumTransformation.scala -> %
+/Users/egorgorodov/dev/scala/stream_analytics/src/main/scala/ru/egorodov/master/transformations/SumTransformation.scala -> <init>
+/Users/egorgorodov/dev/scala/stream_analytics/src/main/scala/ru/egorodov/master/transformations/SumTransformation.scala -> ==
+/Users/egorgorodov/dev/scala/stream_analytics/src/main/scala/ru/egorodov/master/transformations/SumTransformation.scala -> DataSchema
+/Users/egorgorodov/dev/scala/stream_analytics/src/main/scala/ru/egorodov/master/transformations/SumTransformation.scala -> Function1
+/Users/egorgorodov/dev/scala/stream_analytics/src/main/scala/ru/egorodov/master/transformations/SumTransformation.scala -> Int
+/Users/egorgorodov/dev/scala/stream_analytics/src/main/scala/ru/egorodov/master/transformations/SumTransformation.scala -> IntIsIntegral
+/Users/egorgorodov/dev/scala/stream_analytics/src/main/scala/ru/egorodov/master/transformations/SumTransformation.scala -> LatLong
+/Users/egorgorodov/dev/scala/stream_analytics/src/main/scala/ru/egorodov/master/transformations/SumTransformation.scala -> List
+/Users/egorgorodov/dev/scala/stream_analytics/src/main/scala/ru/egorodov/master/transformations/SumTransformation.scala -> Numeric
+/Users/egorgorodov/dev/scala/stream_analytics/src/main/scala/ru/egorodov/master/transformations/SumTransformation.scala -> SumTransformation
+/Users/egorgorodov/dev/scala/stream_analytics/src/main/scala/ru/egorodov/master/transformations/SumTransformation.scala -> apply
+/Users/egorgorodov/dev/scala/stream_analytics/src/main/scala/ru/egorodov/master/transformations/SumTransformation.scala -> egorodov
+/Users/egorgorodov/dev/scala/stream_analytics/src/main/scala/ru/egorodov/master/transformations/SumTransformation.scala -> immutable
+/Users/egorgorodov/dev/scala/stream_analytics/src/main/scala/ru/egorodov/master/transformations/SumTransformation.scala -> lat
+/Users/egorgorodov/dev/scala/stream_analytics/src/main/scala/ru/egorodov/master/transformations/SumTransformation.scala -> latlong
+/Users/egorgorodov/dev/scala/stream_analytics/src/main/scala/ru/egorodov/master/transformations/SumTransformation.scala -> long
+/Users/egorgorodov/dev/scala/stream_analytics/src/main/scala/ru/egorodov/master/transformations/SumTransformation.scala -> master
+/Users/egorgorodov/dev/scala/stream_analytics/src/main/scala/ru/egorodov/master/transformations/SumTransformation.scala -> math
+/Users/egorgorodov/dev/scala/stream_analytics/src/main/scala/ru/egorodov/master/transformations/SumTransformation.scala -> ru
+/Users/egorgorodov/dev/scala/stream_analytics/src/main/scala/ru/egorodov/master/transformations/SumTransformation.scala -> scala
+/Users/egorgorodov/dev/scala/stream_analytics/src/main/scala/ru/egorodov/master/transformations/SumTransformation.scala -> sum
+/Users/egorgorodov/dev/scala/stream_analytics/src/main/scala/ru/egorodov/master/transformations/SumTransformation.scala -> transformations
+/Users/egorgorodov/dev/scala/stream_analytics/src/main/scala/ru/egorodov/monitoring/Monitor.scala -> <init>
+/Users/egorgorodov/dev/scala/stream_analytics/src/main/scala/ru/egorodov/monitoring/Monitor.scala -> App
+/Users/egorgorodov/dev/scala/stream_analytics/src/main/scala/ru/egorodov/monitoring/Monitor.scala -> ClassTag
+/Users/egorgorodov/dev/scala/stream_analytics/src/main/scala/ru/egorodov/monitoring/Monitor.scala -> DStream
+/Users/egorgorodov/dev/scala/stream_analytics/src/main/scala/ru/egorodov/monitoring/Monitor.scala -> Int
+/Users/egorgorodov/dev/scala/stream_analytics/src/main/scala/ru/egorodov/monitoring/Monitor.scala -> Integer
+/Users/egorgorodov/dev/scala/stream_analytics/src/main/scala/ru/egorodov/monitoring/Monitor.scala -> Long
+/Users/egorgorodov/dev/scala/stream_analytics/src/main/scala/ru/egorodov/monitoring/Monitor.scala -> Monitor
+/Users/egorgorodov/dev/scala/stream_analytics/src/main/scala/ru/egorodov/monitoring/Monitor.scala -> Ordering
+/Users/egorgorodov/dev/scala/stream_analytics/src/main/scala/ru/egorodov/monitoring/Monitor.scala -> Predef
+/Users/egorgorodov/dev/scala/stream_analytics/src/main/scala/ru/egorodov/monitoring/Monitor.scala -> Seconds
+/Users/egorgorodov/dev/scala/stream_analytics/src/main/scala/ru/egorodov/monitoring/Monitor.scala -> ServerSocketReceiver
+/Users/egorgorodov/dev/scala/stream_analytics/src/main/scala/ru/egorodov/monitoring/Monitor.scala -> SparkConf
+/Users/egorgorodov/dev/scala/stream_analytics/src/main/scala/ru/egorodov/monitoring/Monitor.scala -> StreamingContext
+/Users/egorgorodov/dev/scala/stream_analytics/src/main/scala/ru/egorodov/monitoring/Monitor.scala -> Tuple2
+/Users/egorgorodov/dev/scala/stream_analytics/src/main/scala/ru/egorodov/monitoring/Monitor.scala -> apache
+/Users/egorgorodov/dev/scala/stream_analytics/src/main/scala/ru/egorodov/monitoring/Monitor.scala -> apply
+/Users/egorgorodov/dev/scala/stream_analytics/src/main/scala/ru/egorodov/monitoring/Monitor.scala -> awaitTermination
+/Users/egorgorodov/dev/scala/stream_analytics/src/main/scala/ru/egorodov/monitoring/Monitor.scala -> conf
+/Users/egorgorodov/dev/scala/stream_analytics/src/main/scala/ru/egorodov/monitoring/Monitor.scala -> countByValue
+/Users/egorgorodov/dev/scala/stream_analytics/src/main/scala/ru/egorodov/monitoring/Monitor.scala -> dstream
+/Users/egorgorodov/dev/scala/stream_analytics/src/main/scala/ru/egorodov/monitoring/Monitor.scala -> egorodov
+/Users/egorgorodov/dev/scala/stream_analytics/src/main/scala/ru/egorodov/monitoring/Monitor.scala -> flatMap
+/Users/egorgorodov/dev/scala/stream_analytics/src/main/scala/ru/egorodov/monitoring/Monitor.scala -> inputData
+/Users/egorgorodov/dev/scala/stream_analytics/src/main/scala/ru/egorodov/monitoring/Monitor.scala -> java
+/Users/egorgorodov/dev/scala/stream_analytics/src/main/scala/ru/egorodov/monitoring/Monitor.scala -> lang
+/Users/egorgorodov/dev/scala/stream_analytics/src/main/scala/ru/egorodov/monitoring/Monitor.scala -> map
+/Users/egorgorodov/dev/scala/stream_analytics/src/main/scala/ru/egorodov/monitoring/Monitor.scala -> materializeClassTag
+/Users/egorgorodov/dev/scala/stream_analytics/src/main/scala/ru/egorodov/monitoring/Monitor.scala -> math
+/Users/egorgorodov/dev/scala/stream_analytics/src/main/scala/ru/egorodov/monitoring/Monitor.scala -> monitoring
+/Users/egorgorodov/dev/scala/stream_analytics/src/main/scala/ru/egorodov/monitoring/Monitor.scala -> org
+/Users/egorgorodov/dev/scala/stream_analytics/src/main/scala/ru/egorodov/monitoring/Monitor.scala -> package
+/Users/egorgorodov/dev/scala/stream_analytics/src/main/scala/ru/egorodov/monitoring/Monitor.scala -> parseInt
+/Users/egorgorodov/dev/scala/stream_analytics/src/main/scala/ru/egorodov/monitoring/Monitor.scala -> print
+/Users/egorgorodov/dev/scala/stream_analytics/src/main/scala/ru/egorodov/monitoring/Monitor.scala -> qual$1
+/Users/egorgorodov/dev/scala/stream_analytics/src/main/scala/ru/egorodov/monitoring/Monitor.scala -> receiverStream
+/Users/egorgorodov/dev/scala/stream_analytics/src/main/scala/ru/egorodov/monitoring/Monitor.scala -> refArrayOps
+/Users/egorgorodov/dev/scala/stream_analytics/src/main/scala/ru/egorodov/monitoring/Monitor.scala -> result
+/Users/egorgorodov/dev/scala/stream_analytics/src/main/scala/ru/egorodov/monitoring/Monitor.scala -> ru
+/Users/egorgorodov/dev/scala/stream_analytics/src/main/scala/ru/egorodov/monitoring/Monitor.scala -> scala
+/Users/egorgorodov/dev/scala/stream_analytics/src/main/scala/ru/egorodov/monitoring/Monitor.scala -> setAppName
+/Users/egorgorodov/dev/scala/stream_analytics/src/main/scala/ru/egorodov/monitoring/Monitor.scala -> spark
+/Users/egorgorodov/dev/scala/stream_analytics/src/main/scala/ru/egorodov/monitoring/Monitor.scala -> split
+/Users/egorgorodov/dev/scala/stream_analytics/src/main/scala/ru/egorodov/monitoring/Monitor.scala -> ssc
+/Users/egorgorodov/dev/scala/stream_analytics/src/main/scala/ru/egorodov/monitoring/Monitor.scala -> start
+/Users/egorgorodov/dev/scala/stream_analytics/src/main/scala/ru/egorodov/monitoring/Monitor.scala -> streaming
+/Users/egorgorodov/dev/scala/stream_analytics/src/main/scala/ru/egorodov/monitoring/Monitor.scala -> x$3
+product stamps:
+24 items
+/Users/egorgorodov/dev/scala/stream_analytics/target/scala-2.11/classes/ru/egorodov/ServerSocketReceiver$$anon$1.class -> lastModified(1490201926000)
+/Users/egorgorodov/dev/scala/stream_analytics/target/scala-2.11/classes/ru/egorodov/ServerSocketReceiver.class -> lastModified(1490201926000)
+/Users/egorgorodov/dev/scala/stream_analytics/target/scala-2.11/classes/ru/egorodov/master/CliOptionParser$$anonfun$isMonitoringEnabled$1.class -> lastModified(1490196062000)
+/Users/egorgorodov/dev/scala/stream_analytics/target/scala-2.11/classes/ru/egorodov/master/CliOptionParser$.class -> lastModified(1490196062000)
+/Users/egorgorodov/dev/scala/stream_analytics/target/scala-2.11/classes/ru/egorodov/master/CliOptionParser.class -> lastModified(1490196062000)
+/Users/egorgorodov/dev/scala/stream_analytics/target/scala-2.11/classes/ru/egorodov/master/DataSchema$.class -> lastModified(1490196062000)
+/Users/egorgorodov/dev/scala/stream_analytics/target/scala-2.11/classes/ru/egorodov/master/DataSchema$LatLong.class -> lastModified(1490196062000)
+/Users/egorgorodov/dev/scala/stream_analytics/target/scala-2.11/classes/ru/egorodov/master/DataSchema.class -> lastModified(1490196062000)
+/Users/egorgorodov/dev/scala/stream_analytics/target/scala-2.11/classes/ru/egorodov/master/TsvProcessor$$anonfun$1.class -> lastModified(1490201926000)
+/Users/egorgorodov/dev/scala/stream_analytics/target/scala-2.11/classes/ru/egorodov/master/TsvProcessor$$anonfun$2.class -> lastModified(1490201926000)
+/Users/egorgorodov/dev/scala/stream_analytics/target/scala-2.11/classes/ru/egorodov/master/TsvProcessor$$anonfun$3.class -> lastModified(1490201926000)
+/Users/egorgorodov/dev/scala/stream_analytics/target/scala-2.11/classes/ru/egorodov/master/TsvProcessor$$anonfun$4.class -> lastModified(1490201926000)
+/Users/egorgorodov/dev/scala/stream_analytics/target/scala-2.11/classes/ru/egorodov/master/TsvProcessor$$anonfun$main$1$$anonfun$apply$2$$anonfun$apply$1.class -> lastModified(1490201926000)
+/Users/egorgorodov/dev/scala/stream_analytics/target/scala-2.11/classes/ru/egorodov/master/TsvProcessor$$anonfun$main$1$$anonfun$apply$2.class -> lastModified(1490201926000)
+/Users/egorgorodov/dev/scala/stream_analytics/target/scala-2.11/classes/ru/egorodov/master/TsvProcessor$$anonfun$main$1.class -> lastModified(1490201926000)
+/Users/egorgorodov/dev/scala/stream_analytics/target/scala-2.11/classes/ru/egorodov/master/TsvProcessor$.class -> lastModified(1490201926000)
+/Users/egorgorodov/dev/scala/stream_analytics/target/scala-2.11/classes/ru/egorodov/master/TsvProcessor.class -> lastModified(1490201926000)
+/Users/egorgorodov/dev/scala/stream_analytics/target/scala-2.11/classes/ru/egorodov/master/transformations/SumTransformation$.class -> lastModified(1490196062000)
+/Users/egorgorodov/dev/scala/stream_analytics/target/scala-2.11/classes/ru/egorodov/master/transformations/SumTransformation.class -> lastModified(1490196062000)
+/Users/egorgorodov/dev/scala/stream_analytics/target/scala-2.11/classes/ru/egorodov/monitoring/Monitor$$anonfun$1.class -> lastModified(1490201926000)
+/Users/egorgorodov/dev/scala/stream_analytics/target/scala-2.11/classes/ru/egorodov/monitoring/Monitor$$anonfun$2.class -> lastModified(1490201926000)
+/Users/egorgorodov/dev/scala/stream_analytics/target/scala-2.11/classes/ru/egorodov/monitoring/Monitor$.class -> lastModified(1490201926000)
+/Users/egorgorodov/dev/scala/stream_analytics/target/scala-2.11/classes/ru/egorodov/monitoring/Monitor$delayedInit$body.class -> lastModified(1490201926000)
+/Users/egorgorodov/dev/scala/stream_analytics/target/scala-2.11/classes/ru/egorodov/monitoring/Monitor.class -> lastModified(1490201926000)
+source stamps:
+6 items
+/Users/egorgorodov/dev/scala/stream_analytics/src/main/scala/ru/egorodov/ServerSocketReceiver.scala -> hash(251a0a6f121a183e0b0576eb622fa45897eed860)
+/Users/egorgorodov/dev/scala/stream_analytics/src/main/scala/ru/egorodov/master/CliOptionParser.scala -> hash(03d5cb6d188a9fd051b86f06302ae3878a23584c)
+/Users/egorgorodov/dev/scala/stream_analytics/src/main/scala/ru/egorodov/master/DataSchema.scala -> hash(1a72e8da3a8245ed7854ccd1ad9e1853fc7e2c09)
+/Users/egorgorodov/dev/scala/stream_analytics/src/main/scala/ru/egorodov/master/TsvProcessor.scala -> hash(e009148443fb0733ff90b76bebe78483827c42d5)
+/Users/egorgorodov/dev/scala/stream_analytics/src/main/scala/ru/egorodov/master/transformations/SumTransformation.scala -> hash(7d44a42155de597271976606d00567e9f2ee4f8f)
+/Users/egorgorodov/dev/scala/stream_analytics/src/main/scala/ru/egorodov/monitoring/Monitor.scala -> hash(0115c25f8681a04ad17a6fa1c10731eb389cc80c)
+binary stamps:
+4 items
+/Library/Java/JavaVirtualMachines/jdk1.8.0_101.jdk/Contents/Home/jre/lib/rt.jar -> lastModified(1466589303000)
+/Users/egorgorodov/.ivy2/cache/org.apache.spark/spark-core_2.11/jars/spark-core_2.11-2.1.0.jar -> lastModified(1481871925000)
+/Users/egorgorodov/.ivy2/cache/org.apache.spark/spark-streaming_2.11/jars/spark-streaming_2.11-2.1.0.jar -> lastModified(1481871949000)
+/Users/egorgorodov/.ivy2/cache/org.scala-lang/scala-library/jars/scala-library-2.11.8.jar -> lastModified(1457105192000)
+class names:
+4 items
+/Library/Java/JavaVirtualMachines/jdk1.8.0_101.jdk/Contents/Home/jre/lib/rt.jar -> java.lang.Object
+/Users/egorgorodov/.ivy2/cache/org.apache.spark/spark-core_2.11/jars/spark-core_2.11-2.1.0.jar -> org.apache.spark.SparkConf$
+/Users/egorgorodov/.ivy2/cache/org.apache.spark/spark-streaming_2.11/jars/spark-streaming_2.11-2.1.0.jar -> org.apache.spark.streaming.StreamingContext$
+/Users/egorgorodov/.ivy2/cache/org.scala-lang/scala-library/jars/scala-library-2.11.8.jar -> scala.App
+internal apis:
+6 items
+/Users/egorgorodov/dev/scala/stream_analytics/src/main/scala/ru/egorodov/ServerSocketReceiver.scala -> 
+rO0ABXNyABB4c2J0aS5hcGkuU291cmNlFlpwRASfbtoCAAZJAAdhcGlIYXNoWgAIaGFzTWFjcm9MABhfaW50ZXJuYWxPbmx5X25hbWVIYXNoZXN0ACRMeHNidGkvYXBpL19pbnRlcm5hbE9ubHlfTmFtZUhhc2hlcztMAANhcGl0ABVMeHNidGkvYXBpL1NvdXJjZUFQSTtMAAtjb21waWxhdGlvbnQAF0x4c2J0aS9hcGkvQ29tcGlsYXRpb247WwAEaGFzaHQAAltCeHAUt4MeAHNyACJ4c2J0aS5hcGkuX2ludGVybmFsT25seV9OYW1lSGFzaGVzVNq+mfrU7EwCAAJbAA9pbXBsaWNpdE1lbWJlcnN0ACNbTHhzYnRpL2FwaS9faW50ZXJuYWxPbmx5X05hbWVIYXNoO1sADnJlZ3VsYXJNZW1iZXJzcQB+AAd4cHVyACNbTHhzYnRpLmFwaS5faW50ZXJuYWxPbmx5X05hbWVIYXNoO0lagLbdlov0AgAAeHAAAAAAdXEAfgAJAAAAJHNyACB4c2J0aS5hcGkuX2ludGVybmFsT25seV9OYW1lSGFzaFsO9SJ2OFfPAgACSQAEaGFzaEwABG5hbWV0ABJMamF2YS9sYW5nL1N0cmluZzt4cPC+F0d0AAZub3RpZnlzcQB+AAwRkLv1dAALcmVwb3J0RXJyb3JzcQB+AAwQM1lAdAAEd2FpdHNxAH4ADBmdwl50AAhzdHJlYW1JZHNxAH4ADBACQsN0AA0kYXNJbnN0YW5jZU9mc3EAfgAMJR3cpHQABmVxdWFsc3NxAH4ADAuMjM90AAxhc0luc3RhbmNlT2ZzcQB+AAwqs/g3dAAMc3luY2hyb25pemVkc3EAfgAMqJywbHQADSRpc0luc3RhbmNlT2ZzcQB+AAxYIKuUdAAHcmVjZWl2ZXNxAH4ADBLMF4B0AAVzdG9yZXNxAH4ADPlSPeR0AAlpc1N0YXJ0ZWRzcQB+AAzIB0EudAAEc3RvcHNxAH4ADADDcEV0AAlub3RpZnlBbGxzcQB+AAzgPW9mdAAMaXNJbnN0YW5jZU9mc3EAfgAMwWtr+XQACWlzU3RvcHBlZHNxAH4ADJSfiIl0AA1zZXRSZWNlaXZlcklkc3EAfgAMlM04m3QABjxpbml0PnNxAH4ADFS03RV0ABFwcmVmZXJyZWRMb2NhdGlvbnNxAH4ADOtfqZh0ABRTZXJ2ZXJTb2NrZXRSZWNlaXZlcnNxAH4ADHHe+u90AAI9PXNxAH4ADCSBCwt0AAVjbG9uZXNxAH4ADBZxVl10AApzdXBlcnZpc29yc3EAfgAMAx4cUHQACHRvU3RyaW5nc3EAfgAM7dMhanQAEGF0dGFjaFN1cGVydmlzb3JzcQB+AAzMPbt/dAACIT1zcQB+AAw2vA3FdAAIZ2V0Q2xhc3NzcQB+AAwWeNIudAAGb25TdG9wc3EAfgAMkafAC3QAB3Jlc3RhcnRzcQB+AAwxll7ZdAACbmVzcQB+AAwNrJUBdAAHb25TdGFydHNxAH4ADJKX1RZ0AAJlcXNxAH4ADPdqTP50AAxzdG9yYWdlTGV2ZWxzcQB+AAzG76qRdAACIyNzcQB+AAzBNt/1dAAIZmluYWxpemVzcQB+AAyUjA9ldAAIaGFzaENvZGVzcgATeHNidGkuYXBpLlNvdXJjZUFQSblep/kpIzikAgACWwALZGVmaW5pdGlvbnN0ABdbTHhzYnRpL2FwaS9EZWZpbml0aW9uO1sACHBhY2thZ2VzdAAUW0x4c2J0aS9hcGkvUGFja2FnZTt4cHVyABdbTHhzYnRpLmFwaS5EZWZpbml0aW9uO4jJXOe0414OAgAAeHAAAAABc3IAE3hzYnRpLmFwaS5DbGFzc0xpa2WDNByh37CXbAIABEwADmRlZmluaXRpb25UeXBldAAaTHhzYnRpL2FwaS9EZWZpbml0aW9uVHlwZTtbABBzYXZlZEFubm90YXRpb25zdAATW0xqYXZhL2xhbmcvU3RyaW5nO0wACHNlbGZUeXBldAAQTHhzYnRpL2FwaS9MYXp5O0wACXN0cnVjdHVyZXEAfgBfeHIAIXhzYnRpLmFwaS5QYXJhbWV0ZXJpemVkRGVmaW5pdGlvbvkRbrHVUDziAgABWwAOdHlwZVBhcmFtZXRlcnN0ABpbTHhzYnRpL2FwaS9UeXBlUGFyYW1ldGVyO3hyABR4c2J0aS5hcGkuRGVmaW5pdGlvbocqG+hxQuNGAgAETAAGYWNjZXNzdAASTHhzYnRpL2FwaS9BY2Nlc3M7WwALYW5ub3RhdGlvbnN0ABdbTHhzYnRpL2FwaS9Bbm5vdGF0aW9uO0wACW1vZGlmaWVyc3QAFUx4c2J0aS9hcGkvTW9kaWZpZXJzO0wABG5hbWVxAH4ADXhwc3IAEHhzYnRpLmFwaS5QdWJsaWO6WD2ubC1gQgIAAHhyABB4c2J0aS5hcGkuQWNjZXNz3WKa+B1jMUgCAAB4cHVyABdbTHhzYnRpLmFwaS5Bbm5vdGF0aW9uO+uX6xkQ9o1IAgAAeHAAAAAAc3IAE3hzYnRpLmFwaS5Nb2RpZmllcnPHERMhaZzcJAIAAUIABWZsYWdzeHAAdAAgcnUuZWdvcm9kb3YuU2VydmVyU29ja2V0UmVjZWl2ZXJ1cgAaW0x4c2J0aS5hcGkuVHlwZVBhcmFtZXRlcjvZbSYPKJ3ytgIAAHhwAAAAAH5yABh4c2J0aS5hcGkuRGVmaW5pdGlvblR5cGUAAAAAAAAAABIAAHhyAA5qYXZhLmxhbmcuRW51bQAAAAAAAAAAEgAAeHB0AAhDbGFzc0RlZnVyABNbTGphdmEubGFuZy5TdHJpbmc7rdJW5+kde0cCAAB4cAAAAABzcgATeHNidGkuU2FmZUxhenkkSW1wbFACLpOXl0A/AgADWgAIYml0bWFwJDBMAAJfdHQAEkxqYXZhL2xhbmcvT2JqZWN0O0wABGV2YWx0ABFMc2NhbGEvRnVuY3Rpb24wO3hyABZ4c2J0aS5hcGkuQWJzdHJhY3RMYXp503e1AV+756ACAAB4cABwc3IAIHhzYnRpLlNhZmVMYXp5JCRhbm9uZnVuJHN0cmljdCQxAAAAAAAAAAACAAFMAAd2YWx1ZSQxcQB+AHh4cHNyABN4c2J0aS5hcGkuRW1wdHlUeXBlvP2eRkk7iSQCAAB4cgAUeHNidGkuYXBpLlNpbXBsZVR5cGVyeGKIISO/QAIAAHhyAA54c2J0aS5hcGkuVHlwZT9q2SEWSarKAgAAeHBzcQB+AHcAcHNxAH4AfHNyABN4c2J0aS5hcGkuU3RydWN0dXJlqar5gJNv2AACAANMAAhkZWNsYXJlZHEAfgBfTAAJaW5oZXJpdGVkcQB+AF9MAAdwYXJlbnRzcQB+AF94cQB+AIBzcQB+AHcAcHNxAH4AfHVxAH4AWgAAAABzcQB+AHcAcHNxAH4AfHVxAH4AWgAAAABzcQB+AHcAcHNxAH4AfHVyABFbTHhzYnRpLmFwaS5UeXBlO3T/pVp7+elBAgAAeHAAAAAFc3IAF3hzYnRpLmFwaS5QYXJhbWV0ZXJpemVkFmzuaQPJu38CAAJMAAhiYXNlVHlwZXQAFkx4c2J0aS9hcGkvU2ltcGxlVHlwZTtbAA10eXBlQXJndW1lbnRzdAARW0x4c2J0aS9hcGkvVHlwZTt4cQB+AH9zcgAUeHNidGkuYXBpLlByb2plY3Rpb27z0o1U6UWkLQIAAkwAAmlkcQB+AA1MAAZwcmVmaXhxAH4AkXhxAH4Af3QACFJlY2VpdmVyc3IAE3hzYnRpLmFwaS5TaW5nbGV0b278p1/4z1bkRgIAAUwABHBhdGh0ABBMeHNidGkvYXBpL1BhdGg7eHEAfgB/c3IADnhzYnRpLmFwaS5QYXRomz1cCM6lJ4QCAAFbAApjb21wb25lbnRzdAAaW0x4c2J0aS9hcGkvUGF0aENvbXBvbmVudDt4cHVyABpbTHhzYnRpLmFwaS5QYXRoQ29tcG9uZW50O0PaCXQtZxZ0AgAAeHAAAAAGc3IADHhzYnRpLmFwaS5JZJgybIs3U8RAAgABTAACaWRxAH4ADXhyABd4c2J0aS5hcGkuUGF0aENvbXBvbmVudF+aIlsuhp+8AgAAeHB0AANvcmdzcQB+AJ90AAZhcGFjaGVzcQB+AJ90AAVzcGFya3NxAH4An3QACXN0cmVhbWluZ3NxAH4An3QACHJlY2VpdmVyc3IADnhzYnRpLmFwaS5UaGlz2wntpsxaQFwCAAB4cQB+AKB1cQB+AI4AAAABc3EAfgCUdAAGU3RyaW5nc3EAfgCXc3EAfgCadXEAfgCdAAAAA3NxAH4An3QABGphdmFzcQB+AJ90AARsYW5ncQB+AKxzcQB+AJR0AAxTZXJpYWxpemFibGVzcQB+AJdzcQB+AJp1cQB+AJ0AAAACc3EAfgCfdAAFc2NhbGFxAH4ArHNxAH4AlHEAfgC4c3EAfgCXc3EAfgCadXEAfgCdAAAAA3NxAH4An3EAfgC0c3EAfgCfdAACaW9xAH4ArHNxAH4AlHQABk9iamVjdHEAfgCwc3EAfgCUdAADQW55cQB+ALl1cgAUW0x4c2J0aS5hcGkuUGFja2FnZTtbExk3cKcnoQIAAHhwAAAAAnNyABF4c2J0aS5hcGkuUGFja2FnZX5Zj/auzjlYAgABTAAEbmFtZXEAfgANeHB0AAJydXNxAH4Ay3QAC3J1LmVnb3JvZG92c3IAFXhzYnRpLmFwaS5Db21waWxhdGlvbu364MNq6KBCAgACSgAJc3RhcnRUaW1lWwAHb3V0cHV0c3QAGltMeHNidGkvYXBpL091dHB1dFNldHRpbmc7eHAAAAFa9vTFvHVyABpbTHhzYnRpLmFwaS5PdXRwdXRTZXR0aW5nO39qwvOnh6VCAgAAeHAAAAABc3IAF3hzYnRpLmFwaS5PdXRwdXRTZXR0aW5netmaR3T7HXsCAAJMAA9vdXRwdXREaXJlY3RvcnlxAH4ADUwAD3NvdXJjZURpcmVjdG9yeXEAfgANeHB0AEcvVXNlcnMvZWdvcmdvcm9kb3YvZGV2L3NjYWxhL3N0cmVhbV9hbmFseXRpY3MvdGFyZ2V0L3NjYWxhLTIuMTEvY2xhc3Nlc3QAAS91cgACW0Ks8xf4BghU4AIAAHhwAAAAFCUaCm8SGhg+CwV262IvpFiX7thg
+/Users/egorgorodov/dev/scala/stream_analytics/src/main/scala/ru/egorodov/master/CliOptionParser.scala -> 
+rO0ABXNyABB4c2J0aS5hcGkuU291cmNlFlpwRASfbtoCAAZJAAdhcGlIYXNoWgAIaGFzTWFjcm9MABhfaW50ZXJuYWxPbmx5X25hbWVIYXNoZXN0ACRMeHNidGkvYXBpL19pbnRlcm5hbE9ubHlfTmFtZUhhc2hlcztMAANhcGl0ABVMeHNidGkvYXBpL1NvdXJjZUFQSTtMAAtjb21waWxhdGlvbnQAF0x4c2J0aS9hcGkvQ29tcGlsYXRpb247WwAEaGFzaHQAAltCeHAGzG9xAHNyACJ4c2J0aS5hcGkuX2ludGVybmFsT25seV9OYW1lSGFzaGVzVNq+mfrU7EwCAAJbAA9pbXBsaWNpdE1lbWJlcnN0ACNbTHhzYnRpL2FwaS9faW50ZXJuYWxPbmx5X05hbWVIYXNoO1sADnJlZ3VsYXJNZW1iZXJzcQB+AAd4cHVyACNbTHhzYnRpLmFwaS5faW50ZXJuYWxPbmx5X05hbWVIYXNoO0lagLbdlov0AgAAeHAAAAAAdXEAfgAJAAAAFXNyACB4c2J0aS5hcGkuX2ludGVybmFsT25seV9OYW1lSGFzaFsO9SJ2OFfPAgACSQAEaGFzaEwABG5hbWV0ABJMamF2YS9sYW5nL1N0cmluZzt4cIHT58h0AAZub3RpZnlzcQB+AAwCie1qdAAEd2FpdHNxAH4ADDlEvzx0AA0kYXNJbnN0YW5jZU9mc3EAfgAMP1aV53QABmVxdWFsc3NxAH4ADIg7HpV0AAxhc0luc3RhbmNlT2ZzcQB+AAzGobqYdAAMc3luY2hyb25pemVkc3EAfgAMeLRG+XQADSRpc0luc3RhbmNlT2ZzcQB+AAzofQhrdAAJbm90aWZ5QWxsc3EAfgAMOalYtXQADGlzSW5zdGFuY2VPZnNxAH4ADODc/KB0ABNpc01vbml0b3JpbmdFbmFibGVkc3EAfgAMphWO/3QAAj09c3EAfgAM1jDICnQABWNsb25lc3EAfgAMlM//5HQACHRvU3RyaW5nc3EAfgAMDf5lG3QAAiE9c3EAfgAMW8BqBHQACGdldENsYXNzc3EAfgAMs4hlY3QAAm5lc3EAfgAMA55ucXQAAmVxc3EAfgAMlYW7cXQAAiMjc3EAfgAMgik9K3QACGZpbmFsaXplc3EAfgAMLJG5mnQACGhhc2hDb2Rlc3EAfgAMRc2YVHQAD0NsaU9wdGlvblBhcnNlcnNyABN4c2J0aS5hcGkuU291cmNlQVBJuV6n+SkjOKQCAAJbAAtkZWZpbml0aW9uc3QAF1tMeHNidGkvYXBpL0RlZmluaXRpb247WwAIcGFja2FnZXN0ABRbTHhzYnRpL2FwaS9QYWNrYWdlO3hwdXIAF1tMeHNidGkuYXBpLkRlZmluaXRpb247iMlc57TjXg4CAAB4cAAAAAFzcgATeHNidGkuYXBpLkNsYXNzTGlrZYM0HKHfsJdsAgAETAAOZGVmaW5pdGlvblR5cGV0ABpMeHNidGkvYXBpL0RlZmluaXRpb25UeXBlO1sAEHNhdmVkQW5ub3RhdGlvbnN0ABNbTGphdmEvbGFuZy9TdHJpbmc7TAAIc2VsZlR5cGV0ABBMeHNidGkvYXBpL0xhenk7TAAJc3RydWN0dXJlcQB+AEF4cgAheHNidGkuYXBpLlBhcmFtZXRlcml6ZWREZWZpbml0aW9u+RFusdVQPOICAAFbAA50eXBlUGFyYW1ldGVyc3QAGltMeHNidGkvYXBpL1R5cGVQYXJhbWV0ZXI7eHIAFHhzYnRpLmFwaS5EZWZpbml0aW9uhyob6HFC40YCAARMAAZhY2Nlc3N0ABJMeHNidGkvYXBpL0FjY2VzcztbAAthbm5vdGF0aW9uc3QAF1tMeHNidGkvYXBpL0Fubm90YXRpb247TAAJbW9kaWZpZXJzdAAVTHhzYnRpL2FwaS9Nb2RpZmllcnM7TAAEbmFtZXEAfgANeHBzcgAQeHNidGkuYXBpLlB1YmxpY7pYPa5sLWBCAgAAeHIAEHhzYnRpLmFwaS5BY2Nlc3PdYpr4HWMxSAIAAHhwdXIAF1tMeHNidGkuYXBpLkFubm90YXRpb24765frGRD2jUgCAAB4cAAAAABzcgATeHNidGkuYXBpLk1vZGlmaWVyc8cREyFpnNwkAgABQgAFZmxhZ3N4cAB0ACJydS5lZ29yb2Rvdi5tYXN0ZXIuQ2xpT3B0aW9uUGFyc2VydXIAGltMeHNidGkuYXBpLlR5cGVQYXJhbWV0ZXI72W0mDyid8rYCAAB4cAAAAAB+cgAYeHNidGkuYXBpLkRlZmluaXRpb25UeXBlAAAAAAAAAAASAAB4cgAOamF2YS5sYW5nLkVudW0AAAAAAAAAABIAAHhwdAAGTW9kdWxldXIAE1tMamF2YS5sYW5nLlN0cmluZzut0lbn6R17RwIAAHhwAAAAAHNyABN4c2J0aS5TYWZlTGF6eSRJbXBsUAIuk5eXQD8CAANaAAhiaXRtYXAkMEwAAl90dAASTGphdmEvbGFuZy9PYmplY3Q7TAAEZXZhbHQAEUxzY2FsYS9GdW5jdGlvbjA7eHIAFnhzYnRpLmFwaS5BYnN0cmFjdExhennTd7UBX7vnoAIAAHhwAHBzcgAgeHNidGkuU2FmZUxhenkkJGFub25mdW4kc3RyaWN0JDEAAAAAAAAAAAIAAUwAB3ZhbHVlJDFxAH4AWnhwc3IAE3hzYnRpLmFwaS5FbXB0eVR5cGW8/Z5GSTuJJAIAAHhyABR4c2J0aS5hcGkuU2ltcGxlVHlwZXJ4YoghI79AAgAAeHIADnhzYnRpLmFwaS5UeXBlP2rZIRZJqsoCAAB4cHNxAH4AWQBwc3EAfgBec3IAE3hzYnRpLmFwaS5TdHJ1Y3R1cmWpqvmAk2/YAAIAA0wACGRlY2xhcmVkcQB+AEFMAAlpbmhlcml0ZWRxAH4AQUwAB3BhcmVudHNxAH4AQXhxAH4AYnNxAH4AWQBwc3EAfgBedXEAfgA8AAAAAHNxAH4AWQBwc3EAfgBedXEAfgA8AAAAAHNxAH4AWQBwc3EAfgBedXIAEVtMeHNidGkuYXBpLlR5cGU7dP+lWnv56UECAAB4cAAAAAJzcgAUeHNidGkuYXBpLlByb2plY3Rpb27z0o1U6UWkLQIAAkwAAmlkcQB+AA1MAAZwcmVmaXh0ABZMeHNidGkvYXBpL1NpbXBsZVR5cGU7eHEAfgBhdAAGT2JqZWN0c3IAE3hzYnRpLmFwaS5TaW5nbGV0b278p1/4z1bkRgIAAUwABHBhdGh0ABBMeHNidGkvYXBpL1BhdGg7eHEAfgBhc3IADnhzYnRpLmFwaS5QYXRomz1cCM6lJ4QCAAFbAApjb21wb25lbnRzdAAaW0x4c2J0aS9hcGkvUGF0aENvbXBvbmVudDt4cHVyABpbTHhzYnRpLmFwaS5QYXRoQ29tcG9uZW50O0PaCXQtZxZ0AgAAeHAAAAADc3IADHhzYnRpLmFwaS5JZJgybIs3U8RAAgABTAACaWRxAH4ADXhyABd4c2J0aS5hcGkuUGF0aENvbXBvbmVudF+aIlsuhp+8AgAAeHB0AARqYXZhc3EAfgB+dAAEbGFuZ3NyAA54c2J0aS5hcGkuVGhpc9sJ7abMWkBcAgAAeHEAfgB/c3EAfgBydAADQW55c3EAfgB2c3EAfgB5dXEAfgB8AAAAAnNxAH4AfnQABXNjYWxhcQB+AIV1cgAUW0x4c2J0aS5hcGkuUGFja2FnZTtbExk3cKcnoQIAAHhwAAAAA3NyABF4c2J0aS5hcGkuUGFja2FnZX5Zj/auzjlYAgABTAAEbmFtZXEAfgANeHB0ABJydS5lZ29yb2Rvdi5tYXN0ZXJzcQB+AI90AAJydXNxAH4Aj3QAC3J1LmVnb3JvZG92c3IAFXhzYnRpLmFwaS5Db21waWxhdGlvbu364MNq6KBCAgACSgAJc3RhcnRUaW1lWwAHb3V0cHV0c3QAGltMeHNidGkvYXBpL091dHB1dFNldHRpbmc7eHAAAAFa9ptPS3VyABpbTHhzYnRpLmFwaS5PdXRwdXRTZXR0aW5nO39qwvOnh6VCAgAAeHAAAAABc3IAF3hzYnRpLmFwaS5PdXRwdXRTZXR0aW5netmaR3T7HXsCAAJMAA9vdXRwdXREaXJlY3RvcnlxAH4ADUwAD3NvdXJjZURpcmVjdG9yeXEAfgANeHB0AEcvVXNlcnMvZWdvcmdvcm9kb3YvZGV2L3NjYWxhL3N0cmVhbV9hbmFseXRpY3MvdGFyZ2V0L3NjYWxhLTIuMTEvY2xhc3Nlc3QAAS91cgACW0Ks8xf4BghU4AIAAHhwAAAAFAPVy20Yip/QUbhvBjAq44eKI1hM
+/Users/egorgorodov/dev/scala/stream_analytics/src/main/scala/ru/egorodov/master/DataSchema.scala -> 
+rO0ABXNyABB4c2J0aS5hcGkuU291cmNlFlpwRASfbtoCAAZJAAdhcGlIYXNoWgAIaGFzTWFjcm9MABhfaW50ZXJuYWxPbmx5X25hbWVIYXNoZXN0ACRMeHNidGkvYXBpL19pbnRlcm5hbE9ubHlfTmFtZUhhc2hlcztMAANhcGl0ABVMeHNidGkvYXBpL1NvdXJjZUFQSTtMAAtjb21waWxhdGlvbnQAF0x4c2J0aS9hcGkvQ29tcGlsYXRpb247WwAEaGFzaHQAAltCeHCVnWcuAHNyACJ4c2J0aS5hcGkuX2ludGVybmFsT25seV9OYW1lSGFzaGVzVNq+mfrU7EwCAAJbAA9pbXBsaWNpdE1lbWJlcnN0ACNbTHhzYnRpL2FwaS9faW50ZXJuYWxPbmx5X05hbWVIYXNoO1sADnJlZ3VsYXJNZW1iZXJzcQB+AAd4cHVyACNbTHhzYnRpLmFwaS5faW50ZXJuYWxPbmx5X05hbWVIYXNoO0lagLbdlov0AgAAeHAAAAAAdXEAfgAJAAAAJHNyACB4c2J0aS5hcGkuX2ludGVybmFsT25seV9OYW1lSGFzaFsO9SJ2OFfPAgACSQAEaGFzaEwABG5hbWV0ABJMamF2YS9sYW5nL1N0cmluZzt4cMA8ok90AAZub3RpZnlzcQB+AAz0l752dAAEd2FpdHNxAH4ADJYt4fB0AA5jb3B5JGRlZmF1bHQkMnNxAH4ADMhNxl10AA0kYXNJbnN0YW5jZU9mc3EAfgAM/ovF63QADHByb2R1Y3RBcml0eXNxAH4ADLnO36F0AAZlcXVhbHNzcQB+AAzqZJ4GdAAMYXNJbnN0YW5jZU9mc3EAfgAMHb6iv3QADHN5bmNocm9uaXplZHNxAH4ADJFpShB0AA0kaXNJbnN0YW5jZU9mc3EAfgAMBnS9BnQAB0xhdExvbmdzcQB+AAyiDzWzdAAIY2FuRXF1YWxzcQB+AAxOGP1YdAANcHJvZHVjdFByZWZpeHNxAH4ADPIkgTp0AAlub3RpZnlBbGxzcQB+AAz8LH1OdAALcmVhZFJlc29sdmVzcQB+AAx1Un4VdAACXzJzcQB+AAwgJNqgdAAMaXNJbnN0YW5jZU9mc3EAfgAMmcfWV3QABGxvbmdzcQB+AAzajW9XdAAGPGluaXQ+c3EAfgAMx1JqnXQAAj09c3EAfgAMFzG7sXQABWNsb25lc3EAfgAMQ2/GhHQAAl8xc3EAfgAME9UHE3QACkRhdGFTY2hlbWFzcQB+AAxETydsdAAEc3dhcHNxAH4ADLwC7Nd0AARjb3B5c3EAfgAMinNtGXQACHRvU3RyaW5nc3EAfgAM6AJQUnQAAiE9c3EAfgAMEzpKjnQACGdldENsYXNzc3EAfgAME/Raf3QADmNvcHkkZGVmYXVsdCQxc3EAfgAMAXFmE3QAAm5lc3EAfgAMMDaC6XQAAmVxc3EAfgAMnh2lV3QAD3Byb2R1Y3RJdGVyYXRvcnNxAH4ADDDBaBV0AANsYXRzcQB+AAyL/B2fdAACIyNzcQB+AAxnGHq2dAAIZmluYWxpemVzcQB+AAxkgI+xdAAOcHJvZHVjdEVsZW1lbnRzcQB+AAyooPgidAAIaGFzaENvZGVzcgATeHNidGkuYXBpLlNvdXJjZUFQSblep/kpIzikAgACWwALZGVmaW5pdGlvbnN0ABdbTHhzYnRpL2FwaS9EZWZpbml0aW9uO1sACHBhY2thZ2VzdAAUW0x4c2J0aS9hcGkvUGFja2FnZTt4cHVyABdbTHhzYnRpLmFwaS5EZWZpbml0aW9uO4jJXOe0414OAgAAeHAAAAABc3IAE3hzYnRpLmFwaS5DbGFzc0xpa2WDNByh37CXbAIABEwADmRlZmluaXRpb25UeXBldAAaTHhzYnRpL2FwaS9EZWZpbml0aW9uVHlwZTtbABBzYXZlZEFubm90YXRpb25zdAATW0xqYXZhL2xhbmcvU3RyaW5nO0wACHNlbGZUeXBldAAQTHhzYnRpL2FwaS9MYXp5O0wACXN0cnVjdHVyZXEAfgBfeHIAIXhzYnRpLmFwaS5QYXJhbWV0ZXJpemVkRGVmaW5pdGlvbvkRbrHVUDziAgABWwAOdHlwZVBhcmFtZXRlcnN0ABpbTHhzYnRpL2FwaS9UeXBlUGFyYW1ldGVyO3hyABR4c2J0aS5hcGkuRGVmaW5pdGlvbocqG+hxQuNGAgAETAAGYWNjZXNzdAASTHhzYnRpL2FwaS9BY2Nlc3M7WwALYW5ub3RhdGlvbnN0ABdbTHhzYnRpL2FwaS9Bbm5vdGF0aW9uO0wACW1vZGlmaWVyc3QAFUx4c2J0aS9hcGkvTW9kaWZpZXJzO0wABG5hbWVxAH4ADXhwc3IAEHhzYnRpLmFwaS5QdWJsaWO6WD2ubC1gQgIAAHhyABB4c2J0aS5hcGkuQWNjZXNz3WKa+B1jMUgCAAB4cHVyABdbTHhzYnRpLmFwaS5Bbm5vdGF0aW9uO+uX6xkQ9o1IAgAAeHAAAAAAc3IAE3hzYnRpLmFwaS5Nb2RpZmllcnPHERMhaZzcJAIAAUIABWZsYWdzeHAAdAAdcnUuZWdvcm9kb3YubWFzdGVyLkRhdGFTY2hlbWF1cgAaW0x4c2J0aS5hcGkuVHlwZVBhcmFtZXRlcjvZbSYPKJ3ytgIAAHhwAAAAAH5yABh4c2J0aS5hcGkuRGVmaW5pdGlvblR5cGUAAAAAAAAAABIAAHhyAA5qYXZhLmxhbmcuRW51bQAAAAAAAAAAEgAAeHB0AAZNb2R1bGV1cgATW0xqYXZhLmxhbmcuU3RyaW5nO63SVufpHXtHAgAAeHAAAAAAc3IAE3hzYnRpLlNhZmVMYXp5JEltcGxQAi6Tl5dAPwIAA1oACGJpdG1hcCQwTAACX3R0ABJMamF2YS9sYW5nL09iamVjdDtMAARldmFsdAARTHNjYWxhL0Z1bmN0aW9uMDt4cgAWeHNidGkuYXBpLkFic3RyYWN0TGF6edN3tQFfu+egAgAAeHAAcHNyACB4c2J0aS5TYWZlTGF6eSQkYW5vbmZ1biRzdHJpY3QkMQAAAAAAAAAAAgABTAAHdmFsdWUkMXEAfgB4eHBzcgATeHNidGkuYXBpLkVtcHR5VHlwZbz9nkZJO4kkAgAAeHIAFHhzYnRpLmFwaS5TaW1wbGVUeXBlcnhiiCEjv0ACAAB4cgAOeHNidGkuYXBpLlR5cGU/atkhFkmqygIAAHhwc3EAfgB3AHBzcQB+AHxzcgATeHNidGkuYXBpLlN0cnVjdHVyZamq+YCTb9gAAgADTAAIZGVjbGFyZWRxAH4AX0wACWluaGVyaXRlZHEAfgBfTAAHcGFyZW50c3EAfgBfeHEAfgCAc3EAfgB3AHBzcQB+AHx1cQB+AFoAAAAAc3EAfgB3AHBzcQB+AHx1cQB+AFoAAAAAc3EAfgB3AHBzcQB+AHx1cgARW0x4c2J0aS5hcGkuVHlwZTt0/6Vae/npQQIAAHhwAAAABnNyABR4c2J0aS5hcGkuUHJvamVjdGlvbvPSjVTpRaQtAgACTAACaWRxAH4ADUwABnByZWZpeHQAFkx4c2J0aS9hcGkvU2ltcGxlVHlwZTt4cQB+AH90AAxTZXJpYWxpemFibGVzcgATeHNidGkuYXBpLlNpbmdsZXRvbvynX/jPVuRGAgABTAAEcGF0aHQAEEx4c2J0aS9hcGkvUGF0aDt4cQB+AH9zcgAOeHNidGkuYXBpLlBhdGibPVwIzqUnhAIAAVsACmNvbXBvbmVudHN0ABpbTHhzYnRpL2FwaS9QYXRoQ29tcG9uZW50O3hwdXIAGltMeHNidGkuYXBpLlBhdGhDb21wb25lbnQ7Q9oJdC1nFnQCAAB4cAAAAAJzcgAMeHNidGkuYXBpLklkmDJsizdTxEACAAFMAAJpZHEAfgANeHIAF3hzYnRpLmFwaS5QYXRoQ29tcG9uZW50X5oiWy6Gn7wCAAB4cHQABXNjYWxhc3IADnhzYnRpLmFwaS5UaGlz2wntpsxaQFwCAAB4cQB+AJ1zcQB+AJBxAH4Ak3NxAH4AlHNxAH4Al3VxAH4AmgAAAANzcQB+AJx0AARqYXZhc3EAfgCcdAACaW9xAH4AoXNxAH4AkHQAB1Byb2R1Y3RxAH4AlnNxAH4AkHQABkVxdWFsc3EAfgCWc3EAfgCQdAAGT2JqZWN0c3EAfgCUc3EAfgCXdXEAfgCaAAAAA3NxAH4AnHEAfgCnc3EAfgCcdAAEbGFuZ3EAfgChc3EAfgCQdAADQW55cQB+AJZ1cgAUW0x4c2J0aS5hcGkuUGFja2FnZTtbExk3cKcnoQIAAHhwAAAAA3NyABF4c2J0aS5hcGkuUGFja2FnZX5Zj/auzjlYAgABTAAEbmFtZXEAfgANeHB0ABJydS5lZ29yb2Rvdi5tYXN0ZXJzcQB+ALp0AAJydXNxAH4AunQAC3J1LmVnb3JvZG92c3IAFXhzYnRpLmFwaS5Db21waWxhdGlvbu364MNq6KBCAgACSgAJc3RhcnRUaW1lWwAHb3V0cHV0c3QAGltMeHNidGkvYXBpL091dHB1dFNldHRpbmc7eHAAAAFa9ptPS3VyABpbTHhzYnRpLmFwaS5PdXRwdXRTZXR0aW5nO39qwvOnh6VCAgAAeHAAAAABc3IAF3hzYnRpLmFwaS5PdXRwdXRTZXR0aW5netmaR3T7HXsCAAJMAA9vdXRwdXREaXJlY3RvcnlxAH4ADUwAD3NvdXJjZURpcmVjdG9yeXEAfgANeHB0AEcvVXNlcnMvZWdvcmdvcm9kb3YvZGV2L3NjYWxhL3N0cmVhbV9hbmFseXRpY3MvdGFyZ2V0L3NjYWxhLTIuMTEvY2xhc3Nlc3QAAS91cgACW0Ks8xf4BghU4AIAAHhwAAAAFBpy6No6gkXteFTM0a2eGFP8fiwJ
+/Users/egorgorodov/dev/scala/stream_analytics/src/main/scala/ru/egorodov/master/TsvProcessor.scala -> 
+rO0ABXNyABB4c2J0aS5hcGkuU291cmNlFlpwRASfbtoCAAZJAAdhcGlIYXNoWgAIaGFzTWFjcm9MABhfaW50ZXJuYWxPbmx5X25hbWVIYXNoZXN0ACRMeHNidGkvYXBpL19pbnRlcm5hbE9ubHlfTmFtZUhhc2hlcztMAANhcGl0ABVMeHNidGkvYXBpL1NvdXJjZUFQSTtMAAtjb21waWxhdGlvbnQAF0x4c2J0aS9hcGkvQ29tcGlsYXRpb247WwAEaGFzaHQAAltCeHDuf32fAHNyACJ4c2J0aS5hcGkuX2ludGVybmFsT25seV9OYW1lSGFzaGVzVNq+mfrU7EwCAAJbAA9pbXBsaWNpdE1lbWJlcnN0ACNbTHhzYnRpL2FwaS9faW50ZXJuYWxPbmx5X05hbWVIYXNoO1sADnJlZ3VsYXJNZW1iZXJzcQB+AAd4cHVyACNbTHhzYnRpLmFwaS5faW50ZXJuYWxPbmx5X05hbWVIYXNoO0lagLbdlov0AgAAeHAAAAAAdXEAfgAJAAAAFXNyACB4c2J0aS5hcGkuX2ludGVybmFsT25seV9OYW1lSGFzaFsO9SJ2OFfPAgACSQAEaGFzaEwABG5hbWV0ABJMamF2YS9sYW5nL1N0cmluZzt4cGynsIF0AAZub3RpZnlzcQB+AAwtTLVBdAAEd2FpdHNxAH4ADOGwQ2B0AA0kYXNJbnN0YW5jZU9mc3EAfgAMgP0mFnQABmVxdWFsc3NxAH4ADPBPk290AAxhc0luc3RhbmNlT2ZzcQB+AAz5QOQ8dAAMc3luY2hyb25pemVkc3EAfgAMQqefT3QADSRpc0luc3RhbmNlT2ZzcQB+AAz7R4aSdAAEbWFpbnNxAH4ADIMsqz10AAlub3RpZnlBbGxzcQB+AAwssdwadAAMaXNJbnN0YW5jZU9mc3EAfgAMRzukaXQAAj09c3EAfgAMOFKTw3QABWNsb25lc3EAfgAMhWq2i3QACHRvU3RyaW5nc3EAfgAM0ZGpsXQAAiE9c3EAfgAM20MA93QACGdldENsYXNzc3EAfgAMTu6KLnQADFRzdlByb2Nlc3NvcnNxAH4ADOjpWjN0AAJuZXNxAH4ADKU+/dd0AAJlcXNxAH4ADJkmjhx0AAIjI3NxAH4ADMkvxkJ0AAhmaW5hbGl6ZXNxAH4ADKxb/350AAhoYXNoQ29kZXNyABN4c2J0aS5hcGkuU291cmNlQVBJuV6n+SkjOKQCAAJbAAtkZWZpbml0aW9uc3QAF1tMeHNidGkvYXBpL0RlZmluaXRpb247WwAIcGFja2FnZXN0ABRbTHhzYnRpL2FwaS9QYWNrYWdlO3hwdXIAF1tMeHNidGkuYXBpLkRlZmluaXRpb247iMlc57TjXg4CAAB4cAAAAAFzcgATeHNidGkuYXBpLkNsYXNzTGlrZYM0HKHfsJdsAgAETAAOZGVmaW5pdGlvblR5cGV0ABpMeHNidGkvYXBpL0RlZmluaXRpb25UeXBlO1sAEHNhdmVkQW5ub3RhdGlvbnN0ABNbTGphdmEvbGFuZy9TdHJpbmc7TAAIc2VsZlR5cGV0ABBMeHNidGkvYXBpL0xhenk7TAAJc3RydWN0dXJlcQB+AEF4cgAheHNidGkuYXBpLlBhcmFtZXRlcml6ZWREZWZpbml0aW9u+RFusdVQPOICAAFbAA50eXBlUGFyYW1ldGVyc3QAGltMeHNidGkvYXBpL1R5cGVQYXJhbWV0ZXI7eHIAFHhzYnRpLmFwaS5EZWZpbml0aW9uhyob6HFC40YCAARMAAZhY2Nlc3N0ABJMeHNidGkvYXBpL0FjY2VzcztbAAthbm5vdGF0aW9uc3QAF1tMeHNidGkvYXBpL0Fubm90YXRpb247TAAJbW9kaWZpZXJzdAAVTHhzYnRpL2FwaS9Nb2RpZmllcnM7TAAEbmFtZXEAfgANeHBzcgAQeHNidGkuYXBpLlB1YmxpY7pYPa5sLWBCAgAAeHIAEHhzYnRpLmFwaS5BY2Nlc3PdYpr4HWMxSAIAAHhwdXIAF1tMeHNidGkuYXBpLkFubm90YXRpb24765frGRD2jUgCAAB4cAAAAABzcgATeHNidGkuYXBpLk1vZGlmaWVyc8cREyFpnNwkAgABQgAFZmxhZ3N4cAB0AB9ydS5lZ29yb2Rvdi5tYXN0ZXIuVHN2UHJvY2Vzc29ydXIAGltMeHNidGkuYXBpLlR5cGVQYXJhbWV0ZXI72W0mDyid8rYCAAB4cAAAAAB+cgAYeHNidGkuYXBpLkRlZmluaXRpb25UeXBlAAAAAAAAAAASAAB4cgAOamF2YS5sYW5nLkVudW0AAAAAAAAAABIAAHhwdAAGTW9kdWxldXIAE1tMamF2YS5sYW5nLlN0cmluZzut0lbn6R17RwIAAHhwAAAAAHNyABN4c2J0aS5TYWZlTGF6eSRJbXBsUAIuk5eXQD8CAANaAAhiaXRtYXAkMEwAAl90dAASTGphdmEvbGFuZy9PYmplY3Q7TAAEZXZhbHQAEUxzY2FsYS9GdW5jdGlvbjA7eHIAFnhzYnRpLmFwaS5BYnN0cmFjdExhennTd7UBX7vnoAIAAHhwAXNyABN4c2J0aS5hcGkuRW1wdHlUeXBlvP2eRkk7iSQCAAB4cgAUeHNidGkuYXBpLlNpbXBsZVR5cGVyeGKIISO/QAIAAHhyAA54c2J0aS5hcGkuVHlwZT9q2SEWSarKAgAAeHBwc3EAfgBZAXNyABN4c2J0aS5hcGkuU3RydWN0dXJlqar5gJNv2AACAANMAAhkZWNsYXJlZHEAfgBBTAAJaW5oZXJpdGVkcQB+AEFMAAdwYXJlbnRzcQB+AEF4cQB+AGBzcQB+AFkBdXEAfgA8AAAAAXNyAA14c2J0aS5hcGkuRGVmUr6f4ny0NmkCAAJMAApyZXR1cm5UeXBldAAQTHhzYnRpL2FwaS9UeXBlO1sAD3ZhbHVlUGFyYW1ldGVyc3QAGltMeHNidGkvYXBpL1BhcmFtZXRlckxpc3Q7eHEAfgBCcQB+AEt1cQB+AEwAAAAAc3EAfgBOAHEAfgAddXEAfgBRAAAAAHNyABR4c2J0aS5hcGkuUHJvamVjdGlvbvPSjVTpRaQtAgACTAACaWRxAH4ADUwABnByZWZpeHQAFkx4c2J0aS9hcGkvU2ltcGxlVHlwZTt4cQB+AF90AARVbml0c3IAE3hzYnRpLmFwaS5TaW5nbGV0b278p1/4z1bkRgIAAUwABHBhdGh0ABBMeHNidGkvYXBpL1BhdGg7eHEAfgBfc3IADnhzYnRpLmFwaS5QYXRomz1cCM6lJ4QCAAFbAApjb21wb25lbnRzdAAaW0x4c2J0aS9hcGkvUGF0aENvbXBvbmVudDt4cHVyABpbTHhzYnRpLmFwaS5QYXRoQ29tcG9uZW50O0PaCXQtZxZ0AgAAeHAAAAACc3IADHhzYnRpLmFwaS5JZJgybIs3U8RAAgABTAACaWRxAH4ADXhyABd4c2J0aS5hcGkuUGF0aENvbXBvbmVudF+aIlsuhp+8AgAAeHB0AAVzY2FsYXNyAA54c2J0aS5hcGkuVGhpc9sJ7abMWkBcAgAAeHEAfgB7dXIAGltMeHNidGkuYXBpLlBhcmFtZXRlckxpc3Q79dM6HfKzcO4CAAB4cAAAAAFzcgAXeHNidGkuYXBpLlBhcmFtZXRlckxpc3TWxbwcZEl04wIAAloACmlzSW1wbGljaXRbAApwYXJhbWV0ZXJzdAAcW0x4c2J0aS9hcGkvTWV0aG9kUGFyYW1ldGVyO3hwAHVyABxbTHhzYnRpLmFwaS5NZXRob2RQYXJhbWV0ZXI7z7jFXaXdtW0CAAB4cAAAAAFzcgAZeHNidGkuYXBpLk1ldGhvZFBhcmFtZXRlch9FrhfTSbDqAgAEWgAKaGFzRGVmYXVsdEwACG1vZGlmaWVydAAdTHhzYnRpL2FwaS9QYXJhbWV0ZXJNb2RpZmllcjtMAARuYW1lcQB+AA1MAAN0cGVxAH4AaHhwAH5yABt4c2J0aS5hcGkuUGFyYW1ldGVyTW9kaWZpZXIAAAAAAAAAABIAAHhxAH4AVHQABVBsYWludAAEYXJnc3NyABd4c2J0aS5hcGkuUGFyYW1ldGVyaXplZBZs7mkDybt/AgACTAAIYmFzZVR5cGVxAH4Ab1sADXR5cGVBcmd1bWVudHN0ABFbTHhzYnRpL2FwaS9UeXBlO3hxAH4AX3NxAH4AbnQABUFycmF5cQB+AHR1cgARW0x4c2J0aS5hcGkuVHlwZTt0/6Vae/npQQIAAHhwAAAAAXNxAH4AbnQABlN0cmluZ3NxAH4AcnNxAH4AdXVxAH4AeAAAAANzcQB+AHp0AARqYXZhc3EAfgB6dAAEbGFuZ3EAfgB/cHNxAH4AWQF1cQB+ADwAAAAAcHNxAH4AWQF1cQB+AJMAAAACc3EAfgBudAAGT2JqZWN0cQB+AJdzcQB+AG50AANBbnlxAH4AdHBwdXIAFFtMeHNidGkuYXBpLlBhY2thZ2U7WxMZN3CnJ6ECAAB4cAAAAANzcgAReHNidGkuYXBpLlBhY2thZ2V+WY/2rs45WAIAAUwABG5hbWVxAH4ADXhwdAAScnUuZWdvcm9kb3YubWFzdGVyc3EAfgCodAACcnVzcQB+AKh0AAtydS5lZ29yb2RvdnNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABWvb0xbx1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5cQB+AA1MAA9zb3VyY2VEaXJlY3RvcnlxAH4ADXhwdABHL1VzZXJzL2Vnb3Jnb3JvZG92L2Rldi9zY2FsYS9zdHJlYW1fYW5hbHl0aWNzL3RhcmdldC9zY2FsYS0yLjExL2NsYXNzZXN0AAEvdXIAAltCrPMX+AYIVOACAAB4cAAAABTgCRSEQ/sHM/+Qt2vr54SDgnxC1Q==
+/Users/egorgorodov/dev/scala/stream_analytics/src/main/scala/ru/egorodov/master/transformations/SumTransformation.scala -> 
+rO0ABXNyABB4c2J0aS5hcGkuU291cmNlFlpwRASfbtoCAAZJAAdhcGlIYXNoWgAIaGFzTWFjcm9MABhfaW50ZXJuYWxPbmx5X25hbWVIYXNoZXN0ACRMeHNidGkvYXBpL19pbnRlcm5hbE9ubHlfTmFtZUhhc2hlcztMAANhcGl0ABVMeHNidGkvYXBpL1NvdXJjZUFQSTtMAAtjb21waWxhdGlvbnQAF0x4c2J0aS9hcGkvQ29tcGlsYXRpb247WwAEaGFzaHQAAltCeHBtX/+FAHNyACJ4c2J0aS5hcGkuX2ludGVybmFsT25seV9OYW1lSGFzaGVzVNq+mfrU7EwCAAJbAA9pbXBsaWNpdE1lbWJlcnN0ACNbTHhzYnRpL2FwaS9faW50ZXJuYWxPbmx5X05hbWVIYXNoO1sADnJlZ3VsYXJNZW1iZXJzcQB+AAd4cHVyACNbTHhzYnRpLmFwaS5faW50ZXJuYWxPbmx5X05hbWVIYXNoO0lagLbdlov0AgAAeHAAAAAAdXEAfgAJAAAAF3NyACB4c2J0aS5hcGkuX2ludGVybmFsT25seV9OYW1lSGFzaFsO9SJ2OFfPAgACSQAEaGFzaEwABG5hbWV0ABJMamF2YS9sYW5nL1N0cmluZzt4cEL0E3p0AAZub3RpZnlzcQB+AAxs+odldAAEd2FpdHNxAH4ADGSr6e10AA0kYXNJbnN0YW5jZU9mc3EAfgAMprQjk3QAB2NvbXBvc2VzcQB+AAyi3Z3BdAAGZXF1YWxzc3EAfgAM3QckCnQADGFzSW5zdGFuY2VPZnNxAH4ADCVOwc50AAxzeW5jaHJvbml6ZWRzcQB+AAz4QbkhdAANJGlzSW5zdGFuY2VPZnNxAH4ADDSIsl10AAdhbmRUaGVuc3EAfgAMHVC4mnQACW5vdGlmeUFsbHNxAH4ADCtnKup0ABFTdW1UcmFuc2Zvcm1hdGlvbnNxAH4ADHl867F0AAxpc0luc3RhbmNlT2ZzcQB+AAwMwZAidAAFYXBwbHlzcQB+AAxtDfshdAACPT1zcQB+AAzAekYxdAAFY2xvbmVzcQB+AAwWMms3dAAIdG9TdHJpbmdzcQB+AAwoB094dAACIT1zcQB+AAzcsfYzdAAIZ2V0Q2xhc3NzcQB+AAyAr4p0dAACbmVzcQB+AAyHc0vudAACZXFzcQB+AAwsROMqdAACIyNzcQB+AAxW0qYudAAIZmluYWxpemVzcQB+AAxyym1qdAAIaGFzaENvZGVzcgATeHNidGkuYXBpLlNvdXJjZUFQSblep/kpIzikAgACWwALZGVmaW5pdGlvbnN0ABdbTHhzYnRpL2FwaS9EZWZpbml0aW9uO1sACHBhY2thZ2VzdAAUW0x4c2J0aS9hcGkvUGFja2FnZTt4cHVyABdbTHhzYnRpLmFwaS5EZWZpbml0aW9uO4jJXOe0414OAgAAeHAAAAABc3IAE3hzYnRpLmFwaS5DbGFzc0xpa2WDNByh37CXbAIABEwADmRlZmluaXRpb25UeXBldAAaTHhzYnRpL2FwaS9EZWZpbml0aW9uVHlwZTtbABBzYXZlZEFubm90YXRpb25zdAATW0xqYXZhL2xhbmcvU3RyaW5nO0wACHNlbGZUeXBldAAQTHhzYnRpL2FwaS9MYXp5O0wACXN0cnVjdHVyZXEAfgBFeHIAIXhzYnRpLmFwaS5QYXJhbWV0ZXJpemVkRGVmaW5pdGlvbvkRbrHVUDziAgABWwAOdHlwZVBhcmFtZXRlcnN0ABpbTHhzYnRpL2FwaS9UeXBlUGFyYW1ldGVyO3hyABR4c2J0aS5hcGkuRGVmaW5pdGlvbocqG+hxQuNGAgAETAAGYWNjZXNzdAASTHhzYnRpL2FwaS9BY2Nlc3M7WwALYW5ub3RhdGlvbnN0ABdbTHhzYnRpL2FwaS9Bbm5vdGF0aW9uO0wACW1vZGlmaWVyc3QAFUx4c2J0aS9hcGkvTW9kaWZpZXJzO0wABG5hbWVxAH4ADXhwc3IAEHhzYnRpLmFwaS5QdWJsaWO6WD2ubC1gQgIAAHhyABB4c2J0aS5hcGkuQWNjZXNz3WKa+B1jMUgCAAB4cHVyABdbTHhzYnRpLmFwaS5Bbm5vdGF0aW9uO+uX6xkQ9o1IAgAAeHAAAAAAc3IAE3hzYnRpLmFwaS5Nb2RpZmllcnPHERMhaZzcJAIAAUIABWZsYWdzeHAAdAA0cnUuZWdvcm9kb3YubWFzdGVyLnRyYW5zZm9ybWF0aW9ucy5TdW1UcmFuc2Zvcm1hdGlvbnVyABpbTHhzYnRpLmFwaS5UeXBlUGFyYW1ldGVyO9ltJg8onfK2AgAAeHAAAAAAfnIAGHhzYnRpLmFwaS5EZWZpbml0aW9uVHlwZQAAAAAAAAAAEgAAeHIADmphdmEubGFuZy5FbnVtAAAAAAAAAAASAAB4cHQABk1vZHVsZXVyABNbTGphdmEubGFuZy5TdHJpbmc7rdJW5+kde0cCAAB4cAAAAAF0AB5zY2FsYS5hbm5vdGF0aW9uLnVuc3BlY2lhbGl6ZWRzcgATeHNidGkuU2FmZUxhenkkSW1wbFACLpOXl0A/AgADWgAIYml0bWFwJDBMAAJfdHQAEkxqYXZhL2xhbmcvT2JqZWN0O0wABGV2YWx0ABFMc2NhbGEvRnVuY3Rpb24wO3hyABZ4c2J0aS5hcGkuQWJzdHJhY3RMYXp503e1AV+756ACAAB4cABwc3IAIHhzYnRpLlNhZmVMYXp5JCRhbm9uZnVuJHN0cmljdCQxAAAAAAAAAAACAAFMAAd2YWx1ZSQxcQB+AF94cHNyABN4c2J0aS5hcGkuRW1wdHlUeXBlvP2eRkk7iSQCAAB4cgAUeHNidGkuYXBpLlNpbXBsZVR5cGVyeGKIISO/QAIAAHhyAA54c2J0aS5hcGkuVHlwZT9q2SEWSarKAgAAeHBzcQB+AF4AcHNxAH4AY3NyABN4c2J0aS5hcGkuU3RydWN0dXJlqar5gJNv2AACAANMAAhkZWNsYXJlZHEAfgBFTAAJaW5oZXJpdGVkcQB+AEVMAAdwYXJlbnRzcQB+AEV4cQB+AGdzcQB+AF4AcHNxAH4AY3VxAH4AQAAAAABzcQB+AF4AcHNxAH4AY3VxAH4AQAAAAABzcQB+AF4AcHNxAH4AY3VyABFbTHhzYnRpLmFwaS5UeXBlO3T/pVp7+elBAgAAeHAAAAADc3IAF3hzYnRpLmFwaS5QYXJhbWV0ZXJpemVkFmzuaQPJu38CAAJMAAhiYXNlVHlwZXQAFkx4c2J0aS9hcGkvU2ltcGxlVHlwZTtbAA10eXBlQXJndW1lbnRzdAARW0x4c2J0aS9hcGkvVHlwZTt4cQB+AGZzcgAUeHNidGkuYXBpLlByb2plY3Rpb27z0o1U6UWkLQIAAkwAAmlkcQB+AA1MAAZwcmVmaXhxAH4AeHhxAH4AZnQACUZ1bmN0aW9uMXNyABN4c2J0aS5hcGkuU2luZ2xldG9u/Kdf+M9W5EYCAAFMAARwYXRodAAQTHhzYnRpL2FwaS9QYXRoO3hxAH4AZnNyAA54c2J0aS5hcGkuUGF0aJs9XAjOpSeEAgABWwAKY29tcG9uZW50c3QAGltMeHNidGkvYXBpL1BhdGhDb21wb25lbnQ7eHB1cgAaW0x4c2J0aS5hcGkuUGF0aENvbXBvbmVudDtD2gl0LWcWdAIAAHhwAAAAAnNyAAx4c2J0aS5hcGkuSWSYMmyLN1PEQAIAAUwAAmlkcQB+AA14cgAXeHNidGkuYXBpLlBhdGhDb21wb25lbnRfmiJbLoafvAIAAHhwdAAFc2NhbGFzcgAOeHNidGkuYXBpLlRoaXPbCe2mzFpAXAIAAHhxAH4Ah3VxAH4AdQAAAAJzcQB+AHt0AAdMYXRMb25nc3EAfgB7dAAKRGF0YVNjaGVtYXNxAH4Ae3QABm1hc3RlcnNxAH4Ae3QACGVnb3JvZG92c3EAfgB7dAACcnVzcQB+AH5zcQB+AIF1cQB+AIQAAAABcQB+AItzcQB+AHt0AANJbnRxAH4AgHNxAH4Ae3QABk9iamVjdHNxAH4AfnNxAH4AgXVxAH4AhAAAAANzcQB+AIZ0AARqYXZhc3EAfgCGdAAEbGFuZ3EAfgCLc3EAfgB7dAADQW55cQB+AIB1cgAUW0x4c2J0aS5hcGkuUGFja2FnZTtbExk3cKcnoQIAAHhwAAAABHNyABF4c2J0aS5hcGkuUGFja2FnZX5Zj/auzjlYAgABTAAEbmFtZXEAfgANeHB0ABJydS5lZ29yb2Rvdi5tYXN0ZXJzcQB+AKl0AAJydXNxAH4AqXQAInJ1LmVnb3JvZG92Lm1hc3Rlci50cmFuc2Zvcm1hdGlvbnNzcQB+AKl0AAtydS5lZ29yb2RvdnNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABWvabT0t1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5cQB+AA1MAA9zb3VyY2VEaXJlY3RvcnlxAH4ADXhwdABHL1VzZXJzL2Vnb3Jnb3JvZG92L2Rldi9zY2FsYS9zdHJlYW1fYW5hbHl0aWNzL3RhcmdldC9zY2FsYS0yLjExL2NsYXNzZXN0AAEvdXIAAltCrPMX+AYIVOACAAB4cAAAABR9RKQhVd5ZcnGXZgbQBWfp8u5Pjw==
+/Users/egorgorodov/dev/scala/stream_analytics/src/main/scala/ru/egorodov/monitoring/Monitor.scala -> 
+rO0ABXNyABB4c2J0aS5hcGkuU291cmNlFlpwRASfbtoCAAZJAAdhcGlIYXNoWgAIaGFzTWFjcm9MABhfaW50ZXJuYWxPbmx5X25hbWVIYXNoZXN0ACRMeHNidGkvYXBpL19pbnRlcm5hbE9ubHlfTmFtZUhhc2hlcztMAANhcGl0ABVMeHNidGkvYXBpL1NvdXJjZUFQSTtMAAtjb21waWxhdGlvbnQAF0x4c2J0aS9hcGkvQ29tcGlsYXRpb247WwAEaGFzaHQAAltCeHAKCB9OAHNyACJ4c2J0aS5hcGkuX2ludGVybmFsT25seV9OYW1lSGFzaGVzVNq+mfrU7EwCAAJbAA9pbXBsaWNpdE1lbWJlcnN0ACNbTHhzYnRpL2FwaS9faW50ZXJuYWxPbmx5X05hbWVIYXNoO1sADnJlZ3VsYXJNZW1iZXJzcQB+AAd4cHVyACNbTHhzYnRpLmFwaS5faW50ZXJuYWxPbmx5X05hbWVIYXNoO0lagLbdlov0AgAAeHAAAAAAdXEAfgAJAAAAHHNyACB4c2J0aS5hcGkuX2ludGVybmFsT25seV9OYW1lSGFzaFsO9SJ2OFfPAgACSQAEaGFzaEwABG5hbWV0ABJMamF2YS9sYW5nL1N0cmluZzt4cFy2IHR0AAZub3RpZnlzcQB+AAzkrEkzdAAEd2FpdHNxAH4ADILGGpZ0AA0kYXNJbnN0YW5jZU9mc3EAfgAMZt2jjnQABmVxdWFsc3NxAH4ADJz9IbB0AAxhc0luc3RhbmNlT2ZzcQB+AAzM3+OgdAAOZXhlY3V0aW9uU3RhcnRzcQB+AAx9Mda1dAAGcmVzdWx0c3EAfgAMFWrBwHQADHN5bmNocm9uaXplZHNxAH4ADPYscN50AA0kaXNJbnN0YW5jZU9mc3EAfgAMDgMjvHQAB01vbml0b3JzcQB+AAz6olMhdAAEbWFpbnNxAH4ADF6vgut0AANzc2NzcQB+AAwckufCdAAJbm90aWZ5QWxsc3EAfgAMqTRlzHQABGNvbmZzcQB+AAyqzgomdAAMaXNJbnN0YW5jZU9mc3EAfgAM3dR5kHQAAj09c3EAfgAMncpLnXQABWNsb25lc3EAfgAMFYaGRXQACHRvU3RyaW5nc3EAfgAMfCqDOnQABGFyZ3NzcQB+AAy9+sNMdAACIT1zcQB+AAzdgseBdAAIZ2V0Q2xhc3NzcQB+AAwdxtk4dAACbmVzcQB+AAyPOOxWdAAJaW5wdXREYXRhc3EAfgAMnqEaynQAAmVxc3EAfgAM8rqfm3QAC2RlbGF5ZWRJbml0c3EAfgAMbJecY3QAAiMjc3EAfgAMIrB88nQACGZpbmFsaXplc3EAfgAMWZCgpXQACGhhc2hDb2Rlc3IAE3hzYnRpLmFwaS5Tb3VyY2VBUEm5Xqf5KSM4pAIAAlsAC2RlZmluaXRpb25zdAAXW0x4c2J0aS9hcGkvRGVmaW5pdGlvbjtbAAhwYWNrYWdlc3QAFFtMeHNidGkvYXBpL1BhY2thZ2U7eHB1cgAXW0x4c2J0aS5hcGkuRGVmaW5pdGlvbjuIyVzntONeDgIAAHhwAAAAAXNyABN4c2J0aS5hcGkuQ2xhc3NMaWtlgzQcod+wl2wCAARMAA5kZWZpbml0aW9uVHlwZXQAGkx4c2J0aS9hcGkvRGVmaW5pdGlvblR5cGU7WwAQc2F2ZWRBbm5vdGF0aW9uc3QAE1tMamF2YS9sYW5nL1N0cmluZztMAAhzZWxmVHlwZXQAEEx4c2J0aS9hcGkvTGF6eTtMAAlzdHJ1Y3R1cmVxAH4AT3hyACF4c2J0aS5hcGkuUGFyYW1ldGVyaXplZERlZmluaXRpb275EW6x1VA84gIAAVsADnR5cGVQYXJhbWV0ZXJzdAAaW0x4c2J0aS9hcGkvVHlwZVBhcmFtZXRlcjt4cgAUeHNidGkuYXBpLkRlZmluaXRpb26HKhvocULjRgIABEwABmFjY2Vzc3QAEkx4c2J0aS9hcGkvQWNjZXNzO1sAC2Fubm90YXRpb25zdAAXW0x4c2J0aS9hcGkvQW5ub3RhdGlvbjtMAAltb2RpZmllcnN0ABVMeHNidGkvYXBpL01vZGlmaWVycztMAARuYW1lcQB+AA14cHNyABB4c2J0aS5hcGkuUHVibGljulg9rmwtYEICAAB4cgAQeHNidGkuYXBpLkFjY2Vzc91imvgdYzFIAgAAeHB1cgAXW0x4c2J0aS5hcGkuQW5ub3RhdGlvbjvrl+sZEPaNSAIAAHhwAAAAAHNyABN4c2J0aS5hcGkuTW9kaWZpZXJzxxETIWmc3CQCAAFCAAVmbGFnc3hwAHQAHnJ1LmVnb3JvZG92Lm1vbml0b3JpbmcuTW9uaXRvcnVyABpbTHhzYnRpLmFwaS5UeXBlUGFyYW1ldGVyO9ltJg8onfK2AgAAeHAAAAAAfnIAGHhzYnRpLmFwaS5EZWZpbml0aW9uVHlwZQAAAAAAAAAAEgAAeHIADmphdmEubGFuZy5FbnVtAAAAAAAAAAASAAB4cHQABk1vZHVsZXVyABNbTGphdmEubGFuZy5TdHJpbmc7rdJW5+kde0cCAAB4cAAAAAJ0ABBzY2FsYS5kZXByZWNhdGVkdAAac2NhbGEuZGVwcmVjYXRlZE92ZXJyaWRpbmdzcgATeHNidGkuU2FmZUxhenkkSW1wbFACLpOXl0A/AgADWgAIYml0bWFwJDBMAAJfdHQAEkxqYXZhL2xhbmcvT2JqZWN0O0wABGV2YWx0ABFMc2NhbGEvRnVuY3Rpb24wO3hyABZ4c2J0aS5hcGkuQWJzdHJhY3RMYXp503e1AV+756ACAAB4cABwc3IAIHhzYnRpLlNhZmVMYXp5JCRhbm9uZnVuJHN0cmljdCQxAAAAAAAAAAACAAFMAAd2YWx1ZSQxcQB+AGp4cHNyABN4c2J0aS5hcGkuRW1wdHlUeXBlvP2eRkk7iSQCAAB4cgAUeHNidGkuYXBpLlNpbXBsZVR5cGVyeGKIISO/QAIAAHhyAA54c2J0aS5hcGkuVHlwZT9q2SEWSarKAgAAeHBzcQB+AGkAcHNxAH4AbnNyABN4c2J0aS5hcGkuU3RydWN0dXJlqar5gJNv2AACAANMAAhkZWNsYXJlZHEAfgBPTAAJaW5oZXJpdGVkcQB+AE9MAAdwYXJlbnRzcQB+AE94cQB+AHJzcQB+AGkAcHNxAH4AbnVxAH4ASgAAAABzcQB+AGkAcHNxAH4AbnVxAH4ASgAAAAFzcgANeHNidGkuYXBpLkRlZlK+n+J8tDZpAgACTAAKcmV0dXJuVHlwZXQAEEx4c2J0aS9hcGkvVHlwZTtbAA92YWx1ZVBhcmFtZXRlcnN0ABpbTHhzYnRpL2FwaS9QYXJhbWV0ZXJMaXN0O3hxAH4AUHEAfgBZdXEAfgBaAAAAAXNyABR4c2J0aS5hcGkuQW5ub3RhdGlvbt4OgaL2XAqyAgACWwAJYXJndW1lbnRzdAAfW0x4c2J0aS9hcGkvQW5ub3RhdGlvbkFyZ3VtZW50O0wABGJhc2VxAH4Af3hwdXIAH1tMeHNidGkuYXBpLkFubm90YXRpb25Bcmd1bWVudDtRnaaPOCUPeAIAAHhwAAAAAXNyABx4c2J0aS5hcGkuQW5ub3RhdGlvbkFyZ3VtZW501kWx2AMbF3wCAAJMAARuYW1lcQB+AA1MAAV2YWx1ZXEAfgANeHB0AAB0ACooIm1haW4gc2hvdWxkIG5vdCBiZSBvdmVycmlkZGVuIiwiMi4xMS4wIilzcgAUeHNidGkuYXBpLlByb2plY3Rpb27z0o1U6UWkLQIAAkwAAmlkcQB+AA1MAAZwcmVmaXh0ABZMeHNidGkvYXBpL1NpbXBsZVR5cGU7eHEAfgBxdAAUZGVwcmVjYXRlZE92ZXJyaWRpbmdzcgATeHNidGkuYXBpLlNpbmdsZXRvbvynX/jPVuRGAgABTAAEcGF0aHQAEEx4c2J0aS9hcGkvUGF0aDt4cQB+AHFzcgAOeHNidGkuYXBpLlBhdGibPVwIzqUnhAIAAVsACmNvbXBvbmVudHN0ABpbTHhzYnRpL2FwaS9QYXRoQ29tcG9uZW50O3hwdXIAGltMeHNidGkuYXBpLlBhdGhDb21wb25lbnQ7Q9oJdC1nFnQCAAB4cAAAAAJzcgAMeHNidGkuYXBpLklkmDJsizdTxEACAAFMAAJpZHEAfgANeHIAF3hzYnRpLmFwaS5QYXRoQ29tcG9uZW50X5oiWy6Gn7wCAAB4cHQABXNjYWxhc3IADnhzYnRpLmFwaS5UaGlz2wntpsxaQFwCAAB4cQB+AJlzcQB+AFwAcQB+ACN1cQB+AF8AAAAAc3EAfgCMdAAEVW5pdHEAfgCSdXIAGltMeHNidGkuYXBpLlBhcmFtZXRlckxpc3Q79dM6HfKzcO4CAAB4cAAAAAFzcgAXeHNidGkuYXBpLlBhcmFtZXRlckxpc3TWxbwcZEl04wIAAloACmlzSW1wbGljaXRbAApwYXJhbWV0ZXJzdAAcW0x4c2J0aS9hcGkvTWV0aG9kUGFyYW1ldGVyO3hwAHVyABxbTHhzYnRpLmFwaS5NZXRob2RQYXJhbWV0ZXI7z7jFXaXdtW0CAAB4cAAAAAFzcgAZeHNidGkuYXBpLk1ldGhvZFBhcmFtZXRlch9FrhfTSbDqAgAEWgAKaGFzRGVmYXVsdEwACG1vZGlmaWVydAAdTHhzYnRpL2FwaS9QYXJhbWV0ZXJNb2RpZmllcjtMAARuYW1lcQB+AA1MAAN0cGVxAH4Af3hwAH5yABt4c2J0aS5hcGkuUGFyYW1ldGVyTW9kaWZpZXIAAAAAAAAAABIAAHhxAH4AYnQABVBsYWlucQB+ADNzcgAXeHNidGkuYXBpLlBhcmFtZXRlcml6ZWQWbO5pA8m7fwIAAkwACGJhc2VUeXBlcQB+AI1bAA10eXBlQXJndW1lbnRzdAARW0x4c2J0aS9hcGkvVHlwZTt4cQB+AHFzcQB+AIx0AAVBcnJheXEAfgCSdXIAEVtMeHNidGkuYXBpLlR5cGU7dP+lWnv56UECAAB4cAAAAAFzcQB+AIx0AAZTdHJpbmdzcQB+AJBzcQB+AJN1cQB+AJYAAAADc3EAfgCYdAAEamF2YXNxAH4AmHQABGxhbmdxAH4AnXNxAH4AaQBwc3EAfgBudXEAfgC0AAAABHNxAH4AjHQAA0FwcHEAfgCSc3EAfgCMdAALRGVsYXllZEluaXRxAH4AknNxAH4AjHQABk9iamVjdHEAfgC4c3EAfgCMdAADQW55cQB+AJJ1cgAUW0x4c2J0aS5hcGkuUGFja2FnZTtbExk3cKcnoQIAAHhwAAAAA3NyABF4c2J0aS5hcGkuUGFja2FnZX5Zj/auzjlYAgABTAAEbmFtZXEAfgANeHB0ABZydS5lZ29yb2Rvdi5tb25pdG9yaW5nc3EAfgDMdAACcnVzcQB+AMx0AAtydS5lZ29yb2RvdnNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABWvb0xbx1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5cQB+AA1MAA9zb3VyY2VEaXJlY3RvcnlxAH4ADXhwdABHL1VzZXJzL2Vnb3Jnb3JvZG92L2Rldi9zY2FsYS9zdHJlYW1fYW5hbHl0aWNzL3RhcmdldC9zY2FsYS0yLjExL2NsYXNzZXN0AAEvdXIAAltCrPMX+AYIVOACAAB4cAAAABQBFcJfhoGgStF6b6HBBzHrOJzIDA==
+external apis:
+0 items
+source infos:
+6 items
+/Users/egorgorodov/dev/scala/stream_analytics/src/main/scala/ru/egorodov/ServerSocketReceiver.scala -> 
+AAAAAAAAAAA=
+/Users/egorgorodov/dev/scala/stream_analytics/src/main/scala/ru/egorodov/master/CliOptionParser.scala -> 
+AAAAAAAAAAA=
+/Users/egorgorodov/dev/scala/stream_analytics/src/main/scala/ru/egorodov/master/DataSchema.scala -> 
+AAAAAAAAAAA=
+/Users/egorgorodov/dev/scala/stream_analytics/src/main/scala/ru/egorodov/master/TsvProcessor.scala -> 
+AAAAAAAAAAA=
+/Users/egorgorodov/dev/scala/stream_analytics/src/main/scala/ru/egorodov/master/transformations/SumTransformation.scala -> 
+AAAAAAAAAAA=
+/Users/egorgorodov/dev/scala/stream_analytics/src/main/scala/ru/egorodov/monitoring/Monitor.scala -> 
+AAAAAAAAAAA=
+compilations:
+12 items
+00 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABWvY0ApV1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQARy9Vc2Vycy9lZ29yZ29yb2Rvdi9kZXYvc2NhbGEvc3RyZWFtX2FuYWx5dGljcy90YXJnZXQvc2NhbGEtMi4xMS9jbGFzc2VzdAABLw==
+01 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABWvY0hwR1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQARy9Vc2Vycy9lZ29yZ29yb2Rvdi9kZXYvc2NhbGEvc3RyZWFtX2FuYWx5dGljcy90YXJnZXQvc2NhbGEtMi4xMS9jbGFzc2VzdAABLw==
+02 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABWvaBi2B1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQARy9Vc2Vycy9lZ29yZ29yb2Rvdi9kZXYvc2NhbGEvc3RyZWFtX2FuYWx5dGljcy90YXJnZXQvc2NhbGEtMi4xMS9jbGFzc2VzdAABLw==
+03 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABWvaNTWp1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQARy9Vc2Vycy9lZ29yZ29yb2Rvdi9kZXYvc2NhbGEvc3RyZWFtX2FuYWx5dGljcy90YXJnZXQvc2NhbGEtMi4xMS9jbGFzc2VzdAABLw==
+04 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABWvaPKJV1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQARy9Vc2Vycy9lZ29yZ29yb2Rvdi9kZXYvc2NhbGEvc3RyZWFtX2FuYWx5dGljcy90YXJnZXQvc2NhbGEtMi4xMS9jbGFzc2VzdAABLw==
+05 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABWvaQW611cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQARy9Vc2Vycy9lZ29yZ29yb2Rvdi9kZXYvc2NhbGEvc3RyZWFtX2FuYWx5dGljcy90YXJnZXQvc2NhbGEtMi4xMS9jbGFzc2VzdAABLw==
+06 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABWvaUb351cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQARy9Vc2Vycy9lZ29yZ29yb2Rvdi9kZXYvc2NhbGEvc3RyZWFtX2FuYWx5dGljcy90YXJnZXQvc2NhbGEtMi4xMS9jbGFzc2VzdAABLw==
+07 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABWvabT0t1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQARy9Vc2Vycy9lZ29yZ29yb2Rvdi9kZXYvc2NhbGEvc3RyZWFtX2FuYWx5dGljcy90YXJnZXQvc2NhbGEtMi4xMS9jbGFzc2VzdAABLw==
+08 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABWvbEyit1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQARy9Vc2Vycy9lZ29yZ29yb2Rvdi9kZXYvc2NhbGEvc3RyZWFtX2FuYWx5dGljcy90YXJnZXQvc2NhbGEtMi4xMS9jbGFzc2VzdAABLw==
+09 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABWvbK1ap1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQARy9Vc2Vycy9lZ29yZ29yb2Rvdi9kZXYvc2NhbGEvc3RyZWFtX2FuYWx5dGljcy90YXJnZXQvc2NhbGEtMi4xMS9jbGFzc2VzdAABLw==
+10 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABWvbNHeV1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQARy9Vc2Vycy9lZ29yZ29yb2Rvdi9kZXYvc2NhbGEvc3RyZWFtX2FuYWx5dGljcy90YXJnZXQvc2NhbGEtMi4xMS9jbGFzc2VzdAABLw==
+11 -> rO0ABXNyABV4c2J0aS5hcGkuQ29tcGlsYXRpb27t+uDDauigQgIAAkoACXN0YXJ0VGltZVsAB291dHB1dHN0ABpbTHhzYnRpL2FwaS9PdXRwdXRTZXR0aW5nO3hwAAABWvb0xbx1cgAaW0x4c2J0aS5hcGkuT3V0cHV0U2V0dGluZzt/asLzp4elQgIAAHhwAAAAAXNyABd4c2J0aS5hcGkuT3V0cHV0U2V0dGluZ3rZmkd0+x17AgACTAAPb3V0cHV0RGlyZWN0b3J5dAASTGphdmEvbGFuZy9TdHJpbmc7TAAPc291cmNlRGlyZWN0b3J5cQB+AAZ4cHQARy9Vc2Vycy9lZ29yZ29yb2Rvdi9kZXYvc2NhbGEvc3RyZWFtX2FuYWx5dGljcy90YXJnZXQvc2NhbGEtMi4xMS9jbGFzc2VzdAABLw==

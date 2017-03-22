@@ -1,0 +1,9 @@
+build
+packge
+package
+packge -Ylog-classpath
+-Ylog-classpath
+build -Ylog-classpath
+ -Ylog-classpath
+eixt
+exit
