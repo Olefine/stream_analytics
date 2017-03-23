@@ -1,20 +1,39 @@
 package ru.egorodov.monitoring
 
+import java.io.PrintWriter
+
 import org.apache.spark.SparkConf
+import java.net.Socket
+
 import org.apache.spark.streaming.dstream.DStream
 import org.apache.spark.streaming.{Seconds, StreamingContext}
 import ru.egorodov.ServerSocketReceiver
+import ru.egorodov.util.CommunicationSettings
 
-object Monitor extends App {
-  val conf = new SparkConf().setAppName("Monitor")
-  val ssc = new StreamingContext(conf, Seconds(5))
+object Monitor {
+  def main(args: Array[String]) = {
+    val conf = new SparkConf().setAppName("Monitor")
+    val ssc = new StreamingContext(conf, Seconds(30))
 
-  val inputData = ssc.receiverStream(new ServerSocketReceiver(9902))
+    val inputData = ssc.receiverStream(new ServerSocketReceiver(CommunicationSettings.monitoringPort))
 
-  val result: DStream[(Int, Long)] = inputData.flatMap(_.split("\n")).map(Integer.parseInt(_)).countByValue()
+    val result: DStream[(Int, Long)] = inputData.flatMap(_.split("\n")).map(Integer.parseInt(_)).countByValue()
 
-  result.print()
+    val windowStream: DStream[(Int, Long)] = result.window(Seconds(30))
 
-  ssc.start()
-  ssc.awaitTermination()
+    windowStream.foreachRDD { pairs =>
+      val cachedPairs = pairs.collectAsMap()
+      val emptyMapValues: Map[Int, Long] = Map(1 -> 0l, 0 -> 0l)
+
+
+      val fullMap: collection.Map[Int, Long] = cachedPairs ++ emptyMapValues.map{ case (k,v) => k -> (v + cachedPairs.getOrElse(k, 0l)) }
+      val totalCount = fullMap.foldLeft(0l)(_ + _._2)
+
+      val report = new ReportConstructor(ssc.sparkContext, fullMap)
+      report.send()
+    }
+
+    ssc.start()
+    ssc.awaitTermination()
+  }
 }

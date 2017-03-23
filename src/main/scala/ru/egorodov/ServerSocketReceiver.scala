@@ -7,9 +7,9 @@ import org.apache.spark.storage.StorageLevel
 import org.apache.spark.streaming.receiver.Receiver
 import java.nio.charset.StandardCharsets
 
+class ServerSocketReceiver(port: Int) extends Receiver[String](StorageLevel.MEMORY_AND_DISK_2) {
 
-class ServerSocketReceiver(port: Int)
-  extends Receiver[String](StorageLevel.MEMORY_AND_DISK_2) {
+  private var socket: ServerSocket = null
 
   def onStart() {
     new Thread("Socket Receiver") {
@@ -17,10 +17,11 @@ class ServerSocketReceiver(port: Int)
     }.start()
   }
 
-  def onStop() {}
+  def onStop(): Unit = {
+    socket.close()
+  }
 
   private def receive() {
-    var socket: ServerSocket = null
     var userInput: String = null
     try {
       socket = new ServerSocket(port)
