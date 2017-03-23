@@ -42,24 +42,24 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name=",gitignore" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/,gitignore">
+      <file leaf-file-name="TsvProcessor.scala" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/scala/ru/egorodov/master/TsvProcessor.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="591">
-              <caret line="55" column="5" selection-start-line="55" selection-start-column="5" selection-end-line="55" selection-end-column="5" />
-              <folding />
+            <state relative-caret-position="450">
+              <caret line="25" column="40" selection-start-line="25" selection-start-column="40" selection-end-line="25" selection-end-column="40" />
+              <folding>
+                <element signature="e#28#54#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="TsvProcessor.scala" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/scala/ru/egorodov/master/TsvProcessor.scala">
+      <file leaf-file-name="CliOptionParser.scala" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/scala/ru/egorodov/master/CliOptionParser.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="432">
-              <caret line="24" column="62" selection-start-line="24" selection-start-column="62" selection-end-line="24" selection-end-column="62" />
-              <folding>
-                <element signature="e#28#54#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="162">
+              <caret line="9" column="0" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -91,8 +91,8 @@
         <option value="$PROJECT_DIR$/src/main/scala/ru/egorodov/TsvProcessor.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/ru/egorodov/monitoring/Monitor.scala" />
         <option value="$PROJECT_DIR$/src/main/scala/ru/egorodov/ServerSocketReceiver.scala" />
-        <option value="$PROJECT_DIR$/src/main/scala/ru/egorodov/master/TsvProcessor.scala" />
         <option value="$PROJECT_DIR$/,gitignore" />
+        <option value="$PROJECT_DIR$/src/main/scala/ru/egorodov/master/TsvProcessor.scala" />
       </list>
     </option>
   </component>
@@ -673,12 +673,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1490184423342</updated>
-      <workItem from="1490184426634" duration="18078000" />
+      <workItem from="1490184426634" duration="19136000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="18078000" />
+    <option name="totallyTimeSpent" value="19136000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1908" height="1053" extended-state="0" />
@@ -825,14 +825,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/ru/egorodov/master/CliOptionParser.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="5" column="7" selection-start-line="5" selection-start-column="7" selection-end-line="5" selection-end-column="7" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/build.sbt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="108">
@@ -883,13 +875,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/scala/ru/egorodov/master/TsvProcessor.scala">
+    <entry file="file://$PROJECT_DIR$/,gitignore">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="432">
-          <caret line="24" column="62" selection-start-line="24" selection-start-column="62" selection-end-line="24" selection-end-column="62" />
-          <folding>
-            <element signature="e#28#54#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="591">
+          <caret line="55" column="5" selection-start-line="55" selection-start-column="5" selection-end-line="55" selection-end-column="5" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -903,10 +893,20 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/,gitignore">
+    <entry file="file://$PROJECT_DIR$/src/main/scala/ru/egorodov/master/TsvProcessor.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="591">
-          <caret line="55" column="5" selection-start-line="55" selection-start-column="5" selection-end-line="55" selection-end-column="5" />
+        <state relative-caret-position="450">
+          <caret line="25" column="40" selection-start-line="25" selection-start-column="40" selection-end-line="25" selection-end-column="40" />
+          <folding>
+            <element signature="e#28#54#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/scala/ru/egorodov/master/CliOptionParser.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="9" column="0" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
           <folding />
         </state>
       </provider>

@@ -13,7 +13,7 @@ object TsvProcessor {
     val conf = new SparkConf().setAppName("TsvProcessor")
     val ssc = new StreamingContext(conf, Seconds(5))
 
-    val inputData = ssc.receiverStream(new ServerSocketReceiver(9902))
+    val inputData = ssc.receiverStream(new ServerSocketReceiver(9999))
 
     val tsvRows = inputData.flatMap(_.split("\n"))
     val numberPairs = tsvRows.map(_.split("\t")).map(pair =>
@@ -26,7 +26,7 @@ object TsvProcessor {
     if (CliOptionParser.isMonitoringEnabled(args))
       streamWithAppliedTransformation.foreachRDD {rdd =>
         rdd.foreachPartition { partition =>
-          val socket = new Socket("localhost", 9092)
+          val socket = new Socket("localhost", 9902)
           val out = new PrintWriter(socket.getOutputStream, true)
 
           partition.foreach(record => out.write(record.toString + "\n"))
