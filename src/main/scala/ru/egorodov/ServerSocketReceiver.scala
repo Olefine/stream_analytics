@@ -1,13 +1,19 @@
 package ru.egorodov
 
 import java.io.{BufferedReader, InputStreamReader}
-import java.net.ServerSocket
+import java.net.{InetAddress, ServerSocket, Socket}
 
 import org.apache.spark.storage.StorageLevel
 import org.apache.spark.streaming.receiver.Receiver
 import java.nio.charset.StandardCharsets
 
-class ServerSocketReceiver(port: Int) extends Receiver[String](StorageLevel.MEMORY_AND_DISK_2) {
+import scala.concurrent.{Future, Promise}
+
+class Callback extends Serializable {
+  def promise = Promise[Unit]
+}
+
+class ServerSocketReceiver(port: Int, initializedCallback: Callback = null) extends Receiver[String](StorageLevel.MEMORY_AND_DISK_2) {
 
   private var socket: ServerSocket = null
 
@@ -25,7 +31,10 @@ class ServerSocketReceiver(port: Int) extends Receiver[String](StorageLevel.MEMO
     var userInput: String = null
     try {
       socket = new ServerSocket(port)
-      val s = socket.accept()
+      val s: Socket = socket.accept()
+
+      invokeServerSocketInitialized()
+
       val reader = new BufferedReader(new InputStreamReader(s.getInputStream, StandardCharsets.UTF_8))
 
       userInput = reader.readLine()
@@ -34,13 +43,18 @@ class ServerSocketReceiver(port: Int) extends Receiver[String](StorageLevel.MEMO
         store(userInput)
         userInput = reader.readLine()
       }
+
       reader.close()
-      restart("Trying to connect again")
     } catch {
       case e: java.net.ConnectException =>
         restart("Error connecting to " + "localhost:" + port, e)
       case t: Throwable =>
         restart("Error receiving data", t)
     }
+  }
+
+  private def invokeServerSocketInitialized() = {
+    if (initializedCallback != null)
+      initializedCallback.promise success ()
   }
 }
