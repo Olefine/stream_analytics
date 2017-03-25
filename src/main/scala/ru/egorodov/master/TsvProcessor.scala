@@ -10,9 +10,9 @@ import ru.egorodov.util.CommunicationSettings
 object TsvProcessor extends AbilityToMakeReports {
   def main(args: Array[String]): Unit = {
     val conf = new SparkConf().setAppName("TsvProcessor")
-    val ssc = new StreamingContext(conf, Seconds(5))
+    val ssc = new StreamingContext(conf, Seconds(CommunicationSettings.masterDuration))
 
-    val inputData = ssc.receiverStream(new ServerSocketReceiver(9999))
+    val inputData = ssc.receiverStream(new ServerSocketReceiver(CommunicationSettings.masterPort))
 
     val streamWithAppliedTransformation: DStream[Int] = TsvOperations.applySumTrasformation(inputData)
 

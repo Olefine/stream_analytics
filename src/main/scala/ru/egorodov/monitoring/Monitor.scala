@@ -13,7 +13,7 @@ import ru.egorodov.util.CommunicationSettings
 object Monitor {
   def main(args: Array[String]) = {
     val conf = new SparkConf().setAppName("Monitor")
-    val ssc = new StreamingContext(conf, Seconds(30))
+    val ssc = new StreamingContext(conf, Seconds(CommunicationSettings.monitoringDuration))
 
     val inputData = ssc.receiverStream(new ServerSocketReceiver(CommunicationSettings.monitoringPort))
 
