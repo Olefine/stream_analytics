@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.org/Olefine/stream_analytics.svg?branch=master)](https://travis-ci.org/Olefine/stream_analytics)
+
 # Analyze Apache Spark streams
 
 It requires to run 2 spark-submit
