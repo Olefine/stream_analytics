@@ -63,7 +63,7 @@ jrebel.lic
 *.ipr
 *.iws
 .*.sw?
-.idea
+.idea/
 
 target/
 
