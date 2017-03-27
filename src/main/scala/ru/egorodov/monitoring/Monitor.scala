@@ -1,9 +1,6 @@
 package ru.egorodov.monitoring
 
-import java.io.PrintWriter
-
 import org.apache.spark.SparkConf
-import java.net.Socket
 
 import org.apache.spark.streaming.dstream.DStream
 import org.apache.spark.streaming.{Seconds, StreamingContext}
@@ -13,13 +10,15 @@ import ru.egorodov.util.CommunicationSettings
 object Monitor {
   def main(args: Array[String]) = {
     val conf = new SparkConf().setAppName("Monitor")
-    val ssc = new StreamingContext(conf, Seconds(CommunicationSettings.monitoringDuration))
+    val monitoringDuration = CommunicationSettings.monitoringDuration
+
+    val ssc = new StreamingContext(conf, Seconds(monitoringDuration))
 
     val inputData = ssc.receiverStream(new ServerSocketReceiver(CommunicationSettings.monitoringPort))
 
     val result: DStream[(Int, Long)] = inputData.flatMap(_.split("\n")).map(Integer.parseInt(_)).countByValue()
 
-    val windowStream: DStream[(Int, Long)] = result.window(Seconds(30))
+    val windowStream: DStream[(Int, Long)] = result.window(Seconds(monitoringDuration))
 
     windowStream.foreachRDD { pairs =>
       val cachedPairs = pairs.collectAsMap()

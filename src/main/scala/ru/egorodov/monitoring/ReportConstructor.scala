@@ -4,7 +4,8 @@ import org.apache.spark.SparkContext
 
 private[monitoring] class ReportConstructor(val sc: SparkContext, dataToReport: collection.Map[Int, Long]) {
   def send() = {
-    sc.makeRDD(constructReport(), 1).saveAsTextFile(constructFilename())
+    val resultRDD = sc.parallelize(Seq(constructReport()), 1)
+    resultRDD.saveAsTextFile(constructFilename())
   }
 
   private def constructFilename(): String = {
@@ -15,7 +16,6 @@ private[monitoring] class ReportConstructor(val sc: SparkContext, dataToReport: 
   private def constructReport(): String = {
     val totalCount = dataToReport.foldLeft(0l)(_ + _._2)
 
-    "Ration(unsuccess/total) = ${dataToReport(0)}/$totalCount"
+    s"Ratio(unsuccess/total) = ${dataToReport(0)}/$totalCount"
   }
 }
-
