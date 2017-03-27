@@ -1,6 +1,10 @@
 package ru.egorodov.monitoring
 
 import org.apache.spark.SparkContext
+import org.apache.http.client.methods.HttpPost
+import org.apache.http.entity.StringEntity
+import org.apache.http.impl.client.DefaultHttpClient
+import ru.egorodov.util.CommunicationSettings
 
 private[monitoring] class ReportConstructor(val sc: SparkContext, dataToReport: collection.Map[Int, Long]) {
   def send() = {
@@ -14,8 +18,28 @@ private[monitoring] class ReportConstructor(val sc: SparkContext, dataToReport: 
   }
 
   private def constructReport(): String = {
-    val totalCount = dataToReport.foldLeft(0l)(_ + _._2)
+    s"Ratio(unsuccess/total) = $ratio"
+  }
 
-    s"Ratio(unsuccess/total) = ${dataToReport(0)}/$totalCount"
+  private def sendRatio() = {
+    val postRequest = new HttpPost(CommunicationSettings.monitoringRatioCheckerServiceUrl)
+    postRequest.setHeader("Content-type", "application/json")
+    postRequest.setEntity(new StringEntity(constructRequestBody()))
+    (new DefaultHttpClient).execute(postRequest)
+  }
+
+  private def constructRequestBody(): String = {
+    //since this request is very simple, no need to use additional libs like com.google.gson
+    s"""
+      |{
+      | "ratio" : $ratio,
+      | "applicationName" : "${CommunicationSettings.masterApplicationName}"
+      |}
+    """.stripMargin
+  }
+
+  def ratio: Double = {
+    val totalCount = dataToReport.foldLeft(0l)(_ + _._2)
+    dataToReport(0) / totalCount
   }
 }

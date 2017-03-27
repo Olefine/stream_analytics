@@ -10,6 +10,7 @@ libraryDependencies += "org.apache.spark" %% "spark-core" % "2.1.0" % "provided"
 libraryDependencies += "org.apache.spark" %% "spark-streaming" % "2.1.0"
 libraryDependencies += "com.typesafe" % "config" % "1.3.1"
 libraryDependencies += "org.scalatest" % "scalatest_2.11" % "2.2.6" % "test"
+libraryDependencies += "org.apache.httpcomponents" % "httpclient" % "4.5.3"
 
 mergeStrategy in assembly <<= (mergeStrategy in assembly) { (old) => {
   case m if m.toLowerCase.endsWith("manifest.mf") => MergeStrategy.discard
